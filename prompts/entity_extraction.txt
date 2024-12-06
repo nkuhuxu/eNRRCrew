@@ -1,0 +1,115 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [chemical element, electrocatalyst, synthesis method, morphology, reaction condition, applied potential, pH level, electrolyte type, NH3 yield, faradaic efficiency]
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in The primary language of the provided text is "English." as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. If you have to translate into The primary language of the provided text is "English.", just translate the descriptions, nothing else!
+
+5. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+entity_types: [chemical element, electrocatalyst, synthesis method, morphology, reaction condition, applied potential, pH level, electrolyte type, NH3 yield, faradaic efficiency]
+text:
+ atom and Zr atom. Among the studied materials, W/Zr2CO2 possesses the highest NRR performance via the distal pathway with the NRR overpotential (qNRR) of 0.14 V, B/Zr2CO2 possesses the highest NRR performance (qNRR = 0.26 V) and selectivity via the enzymatic pathway, and for the co-doped systems, RuN3/Zr2CO2 delivers the highest NRR activity with the corresponding qNRR of 0.54 V. The crystal orbital Hamilton population (COHP), density of states, charge transfers, and work function (phi) results indicated that the TM and nonmetal atoms can adjust the electronic properties of the Zr2CO2 surface to break the inertness of N2 and form the key intermediate *NNH or *N*NH, and therefore enhance their NRR activity. The ab initio molecular dynamics (AIMD) simulation results suggested
+------------------------
+output:
+("entity"{tuple_delimiter}Zr{tuple_delimiter}chemical element{tuple_delimiter}Zr is a chemical element that is part of the studied materials for nitrogen reduction reactions (NRR).)
+{record_delimiter}
+("entity"{tuple_delimiter}W/Zr2CO2{tuple_delimiter}electrocatalyst{tuple_delimiter}W/Zr2CO2 is an electrocatalyst that exhibits the highest NRR performance via the distal pathway with an NRR overpotential of 0.14 V.)
+{record_delimiter}
+("entity"{tuple_delimiter}B/Zr2CO2{tuple_delimiter}electrocatalyst{tuple_delimiter}B/Zr2CO2 is an electrocatalyst that shows the highest NRR performance with an NRR overpotential of 0.26 V and selectivity via the enzymatic pathway.)
+{record_delimiter}
+("entity"{tuple_delimiter}RuN3/Zr2CO2{tuple_delimiter}electrocatalyst{tuple_delimiter}RuN3/Zr2CO2 delivers the highest NRR activity among the co-doped systems with an NRR overpotential of 0.54 V.)
+{record_delimiter}
+("entity"{tuple_delimiter}NRR overpotential (qNRR){tuple_delimiter}reaction condition{tuple_delimiter}NRR overpotential (qNRR) is a critical reaction condition that influences the performance of electrocatalysts in nitrogen reduction reactions.)
+{record_delimiter}
+("entity"{tuple_delimiter}0.14 V{tuple_delimiter}applied potential{tuple_delimiter}0.14 V is the applied potential for W/Zr2CO2, indicating its NRR performance via the distal pathway.)
+{record_delimiter}
+("entity"{tuple_delimiter}0.26 V{tuple_delimiter}applied potential{tuple_delimiter}0.26 V is the applied potential for B/Zr2CO2, indicating its NRR performance and selectivity via the enzymatic pathway.)
+{record_delimiter}
+("entity"{tuple_delimiter}0.54 V{tuple_delimiter}applied potential{tuple_delimiter}0.54 V is the applied potential for RuN3/Zr2CO2, indicating its highest NRR activity among co-doped systems.)
+{record_delimiter}
+("relationship"{tuple_delimiter}W/Zr2CO2{tuple_delimiter}0.14 V{tuple_delimiter}The applied potential of 0.14 V corresponds to the NRR performance of W/Zr2CO2 via the distal pathway{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}B/Zr2CO2{tuple_delimiter}0.26 V{tuple_delimiter}The applied potential of 0.26 V corresponds to the NRR performance and selectivity of B/Zr2CO2 via the enzymatic pathway{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}RuN3/Zr2CO2{tuple_delimiter}0.54 V{tuple_delimiter}The applied potential of 0.54 V corresponds to the highest NRR activity of RuN3/Zr2CO2 among co-doped systems{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}W/Zr2CO2{tuple_delimiter}NRR overpotential (qNRR){tuple_delimiter}The NRR overpotential of 0.14 V is a key factor in determining the performance of W/Zr2CO2 in nitrogen reduction reactions{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}B/Zr2CO2{tuple_delimiter}NRR overpotential (qNRR){tuple_delimiter}The NRR overpotential of 0.26 V is a key factor in determining the performance of B/Zr2CO2 in nitrogen reduction reactions{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}RuN3/Zr2CO2{tuple_delimiter}NRR overpotential (qNRR){tuple_delimiter}The NRR overpotential of 0.54 V is a key factor in determining the performance of RuN3/Zr2CO2 in nitrogen reduction reactions{tuple_delimiter}9)
+{completion_delimiter}
+#############################
+
+
+Example 2:
+
+entity_types: [chemical element, electrocatalyst, synthesis method, morphology, reaction condition, applied potential, pH level, electrolyte type, NH3 yield, faradaic efficiency]
+text:
+Herein, we design and synthesize two metal-porphyrin based 3D COFs bearing metal-N4 catalytic sites with different 3D spatial arrangements (scu and flu topologies) for electrochemical nitrogen reduction reaciton. The anchoring of metal ions (Fe, Cu) at the center of the planar conjugated-porphyrin ring enhances the activity and selectivity of electrocatalytic NRR. Significantly, the 3D COFs with Fe-N4 catalytic sites feature higher NH3 yield and Faradaic efficiency (94.26 +/- 4.9 mu g h(-1) mg(-1) and 18.37 +/- 0.96 % at-0.5 V vs RHE, reversible hydrogen electrode) in 0.1 M Na2SO4 than those with Cu-N-4 centers, making them promising candidates for NRR electrocatalysts. 15N isotopic labeling experiment confirms that nitrogen in produced ammonia originates from N2 in the electrolyte. This work not only enriches the topological library of 3D COFs, but also provides an idea for the rational design of metal porphyrin-based COFs for NH3 production.
+------------------------
+output:
+("entity"{tuple_delimiter}Fe{tuple_delimiter}chemical element{tuple_delimiter}Fe is one of the constituent elements of the catalyst.)
+{record_delimiter}
+("entity"{tuple_delimiter}Na2SO4{tuple_delimiter}electrolyte type{tuple_delimiter}0.1 M Na2SO4 is the electrolyte used in electrochemical nitrogen reduction reaction.)
+{record_delimiter}
+("entity"{tuple_delimiter}3D spatial arrangements (scu and flu topologies){tuple_delimiter}morphology{tuple_delimiter}3D spatial arrangements (scu and flu topologies) is the mophology of the 3D COFs bearing metal-N4 catalytic sites.)
+{record_delimiter}
+("entity"{tuple_delimiter}Cu{tuple_delimiter}chemical element{tuple_delimiter}Cu is one of the constituent elements of the catalyst.)
+{record_delimiter}
+("entity"{tuple_delimiter}3D COFs with Fe-N4{tuple_delimiter}electrocatalyst{tuple_delimiter}The 3D COFs with Fe-N4 catalytic sites feature higher NH3 yield and Faradaic efficiency than 3D COFs with Cu-N4 catalytic sites.)
+{record_delimiter}
+("entity"{tuple_delimiter}3D COFs with Cu-N4{tuple_delimiter}electrocatalyst{tuple_delimiter}The 3D COFs with Cu-N4 catalytic sites feature inferior NH3 yield and Faradaic efficiency than 3D COFs with Fe-N4 catalytic sites.)
+{record_delimiter}
+("entity"{tuple_delimiter}94.26 +/- 4.9 mu g h(-1) mg(-1){tuple_delimiter}NH3 yield{tuple_delimiter}94.26 +/- 4.9 mu g h(-1) mg(-1) is the NH3 yield of 3D COFs with Fe-N4, the NH3 yield value of 94.26 +/- 4.9 is a numerical value with an error. The NH3 yield units are μg h^(-1) mg^(-1).)
+{record_delimiter}
+("entity"{tuple_delimiter}18.37 +/- 0.96 %{tuple_delimiter}faradaic efficiency{tuple_delimiter}18.37 +/- 0.96 % is the faradaic efficiency with an error of NRR catalyzed by 3D COFs with Fe-N4.)
+{record_delimiter}
+("entity"{tuple_delimiter}-0.5 V vs RHE{tuple_delimiter}applied potential{tuple_delimiter}-0.5 V vs RHE is the applied potential used for electrochemical nitrogen reduction reaction.)
+{record_delimiter}
+("relationship"{tuple_delimiter}Fe{tuple_delimiter}3D COFs with Fe-N4{tuple_delimiter}Fe is one of the constituent elements of the 3D COFs with Fe-N4 catalyst.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}Na2SO4{tuple_delimiter}3D COFs with Fe-N4{tuple_delimiter}Na2SO4 is used as the electrolyte for electrochemcial nitrogen reduction reaction catalyzed by 3D COFs with Fe-N4.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}Cu{tuple_delimiter}3D COFs with Cu-N4{tuple_delimiter}Cu is one of the constituent elements of the 3D COFs with Cu-N4 catalyst.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}94.26 +/- 4.9 mu g h(-1) mg(-1){tuple_delimiter}3D COFs with Fe-N4{tuple_delimiter}94.26 +/- 4.9 mu g h(-1) mg(-1) is the NH3 yield of 3D COFs with Fe-N4.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}18.37 +/- 0.96 %{tuple_delimiter}3D COFs with Fe-N4{tuple_delimiter}18.37 +/- 0.96 % is the faradaic efficiency of 3D COFs with Fe-N4.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}-0.5 V vs RHE{tuple_delimiter}3D COFs with Fe-N4{tuple_delimiter}-0.5 V vs RHE is the applied potential of electrochemical nitrogen reduction reaction catalyzed by 3D COFs with Fe-N4.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}3D spatial arrangements (scu and flu topologies){tuple_delimiter}3D COFs with Fe-N4{tuple_delimiter}3D spatial arrangements (scu and flu topologies) is the morphology of 3D COFs with Fe-N4.{tuple_delimiter}9)
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+entity_types: [chemical element, electrocatalyst, synthesis method, morphology, reaction condition, applied potential, pH level, electrolyte type, NH3 yield, faradaic efficiency]
+text: {input_text}
+######################
+output:
