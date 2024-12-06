@@ -1,0 +1,2218 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="FE">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Fe is a chemical element that is used as a metal ion in the design of electrocatalysts for nitrogen reduction reactions (NRR).
+Fe is a chemical element that is part of the PdFe3 nano-alloy, contributing to its catalytic properties.
+Fe is a chemical element that is part of the heteronuclear dual-atom catalysts (DACs) designed for nitrogen fixation.
+Fe is an electron-deficient species that aids in activating N2 by trapping metastable electrons in the anti-bonding orbitals of adsorbed nitrogen molecules.
+Fe is a chemical element that is part of the asymmetrical heterobimetallic FeCo dimer sites, contributing to the activation of N2 for ammonia synthesis.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2,703da9f9e34da8c2a486de87aaa7dc31,7da97e0fb996d9010e425e7dccff4ce4,d044f043745b616cdb4686943e868600,dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="CU">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Cu is a chemical element that is used as a metal ion in the design of electrocatalysts for nitrogen reduction reactions (NRR).
+Cu is a chemical element that is used in the Cu-based catalysts for electrocatalytic nitrate (NO3-) reduction reaction for ammonia (NH3) synthesis.
+Cu is a chemical element used in the synthesis of single-atom catalysts (SACs) for ammonia production.
+Cu is an electron-deficient species that helps activate N2 by trapping metastable electrons in the anti-bonding orbitals of adsorbed nitrogen molecules.
+Cu is a chemical element used in the doping of hematite (Fe2O3) nanorod arrays to enhance nitrogen reduction reaction performance.
+Cu is a chemical element that is part of the hybrid Cu+/Cu0 interface, which is catalytically active for electrochemical ammonia synthesis.
+</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2,534ba1e4c38684a8afd1ac8b8110b5de,703da9f9e34da8c2a486de87aaa7dc31,82eae126e79e74d3a7b3e223e50527b6,d044f043745b616cdb4686943e868600,dd2c218d3654db0045b7149ccc6ca802,f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="3D COFS WITH FE-N4">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">3D COFs with Fe-N4 catalytic sites are electrocatalysts that exhibit higher NH3 yield and Faradaic efficiency compared to those with Cu-N4 centers.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="3D COFS WITH CU-N4">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">3D COFs with Cu-N4 catalytic sites are electrocatalysts that exhibit lower NH3 yield and Faradaic efficiency compared to those with Fe-N4 centers.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="94.26 +/- 4.9 MU G H(-1) MG(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">94.26 +/- 4.9 mu g h(-1) mg(-1) is the NH3 yield of 3D COFs with Fe-N4, indicating its performance in nitrogen reduction reactions.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="18.37 +/- 0.96 %">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">18.37 +/- 0.96 % is the Faradaic efficiency of 3D COFs with Fe-N4, indicating its efficiency in nitrogen reduction reactions.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="-0.5 V VS RHE">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">-0.5 V vs RHE is the applied potential for the electrocatalytic nitrogen reduction reaction involving 3D COFs with Fe-N4.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="BISMUTH NANOCRYSTALS">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Bismuth nanocrystals are electrocatalysts that exhibit a unique dinitrogen desorption mechanism for nitrogen reduction reactions.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="CU2@GDY">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Cu2@GDY is identified as the most stable NORR catalyst with high NH3 activity and selectivity.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="55.1 MU G H-1 MG CAT-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">55.1 mu g h-1 mg cat-1 is the NH3 yield rate of Al-BPene, indicating its performance in ammonia electrosynthesis.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="66.5 %">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">66.5 % is the Faradaic efficiency of Al-BPene for ammonia electrosynthesis, indicating its efficiency.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="27.5 MU G H(-1) MG(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">27.5 mu g h(-1) mg(-1) is the NH3 yield rate achieved by CeO2 nanoparticles anchored by MoN nanosheets for nitrogen reduction reactions.
+27.5 mu g h(-1) mg(-1) is the NH3 yield rate achieved with the synthesized catalysts at -0.3 V vs RHE under ambient conditions.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1,703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="17.2 %">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">17.2 % is the Faradaic efficiency of CeO2 nanoparticles anchored by MoN nanosheets for nitrogen reduction reactions.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="NH3 YIELD">
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="AL-BPENE">
+      <data key="d1">Al-BPene is a catalyst formed by protecting black phosphorene with aluminum ions, enhancing its reactivity for nitrogen reduction reactions.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+      <data key="d3">ELECTROCATALYST</data>
+    </node>
+    <node id="CEO2 NANOPARTICLES ANCHORED BY MON NANOSHEETS">
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="BLACK PHOSPHORENE (BPENE)">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Black phosphorene (BPene) is a morphology of black phosphorus that is being studied for its catalytic properties.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="AL3+">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Al3+ is an aluminum ion that is used to protect black phosphorene against oxidation in the proposed strategy.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="7 DAYS">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">7 days is the duration for which Al-BPene maintains structural and compositional stability under ambient conditions.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="60 DEGREES C">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">60 degrees C is the temperature at which a higher NH3 yield rate of 75 mu g h-1 mg cat-1 was recorded for Al-BPene.</data>
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="BLACK PHOSPHORUS (BP)">
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="FARADAIC EFFICIENCY">
+      <data key="d2">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </node>
+    <node id="CEO2">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">CeO2 is a chemical compound used to synthesize tiny nanoparticles that serve as advanced catalysts for nitrogen reduction reactions (NRR).</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="MON">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">MoN is a chemical compound that forms ultra-thin nanosheets and is anchored to CeO2 nanoparticles to enhance their catalytic performance for NRR.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="17.2%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">17.2% is the Faradaic efficiency (FE) achieved with the synthesized catalysts at -0.3 V vs RHE under ambient conditions.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="N-CONTAINING CHEMICALS">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">N-containing chemicals refer to various compounds that can be synthesized directly from N2, which is the focus of the proposed cascade electrosynthesis strategy.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="LI-N-2 BATTERY">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">The Li-N-2 battery is a proposed method for the cascade electrosynthesis of N-containing chemicals from N2.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="LITHIUM BIS(TRIFLUOROMETHANESULFONYL)IMIDE">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Lithium bis(trifluoromethanesulfonyl)imide is a prototype product synthesized through cascade reactions involving electrocatalytic N2 reduction.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="V@B5N3">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">V@B5N3 is an electrocatalyst material theoretically calculated to serve in nitrogen reduction reactions (NRR).</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="V@B7N5">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">V@B7N5 is another electrocatalyst material that exhibits remarkable catalytic activity for NRR and effectively suppresses hydrogen evolution reactions.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="0.13 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">0.13 V is the overpotential at which V@B7N5 exhibits effective catalytic activity for NRR.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="99%">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">99% is the anticipated ammonia production efficiency for the V@B7N5 electrocatalyst.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="RU">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Ru is a chemical element that serves as a single atom catalyst in the study of nitrogen reduction reactions (NRR).
+Ru is the inherent element in the Ru-Tta-Dfp catalyst that facilitates nitrogen reduction reactions.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1,6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="RUBN@GY">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">RuBn@GY is an electrocatalyst composed of single Ru atoms anchored in Bn-doped graphyne, showing high efficiency for NRR.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="-0.3 V VS RHE">
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="-0.53 V">
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="100 W">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">100 W is the rf power used in the H2O/N2 plasma for ammonia production.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="160 W">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">160 W is the rf power used in the H2/N2 plasma for ammonia production.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="23-25 MOL/MJ">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">23-25 mol/MJ is the energy cost associated with ammonia production in the H2O/N2 and H2/N2 plasmas.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="Q[6]">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Q[6] is a supramolecular compound used in the self-assembly process for synthesizing an efficient electrocatalyst for nitrogen oxidation.
+Q[6] is a supramolecular compound used in the synthesis of an electrocatalyst for nitrogen oxidation reactions.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a,65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="PMA">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">PMA is a heteropolyacid used in the self-assembly process to create an efficient electrocatalyst for nitrogen oxidation.
+PMA is a heteropolyacid that is combined with Q[6] to form an electrocatalyst for nitrogen oxidation.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a,65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="SELF-ASSEMBLY">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Self-assembly is the process used to synthesize the electrocatalyst from supramolecular Q[6] and heteropolyacid.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="H2O/N2 PLASMA">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">H2O/N2 plasma is a reaction condition used for the production of ammonia.</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="H2/N2 PLASMA">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">H2/N2 plasma is another reaction condition used for the production of ammonia.)&lt;|COMPLETE|&gt;</data>
+      <data key="d2">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </node>
+    <node id="Q[6]-PMA">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Q[6]-PMA is an electrocatalyst synthesized from supramolecular cucurbit[6]uril and heteropolyacid, showing high stability and specific surface area for nitrogen oxidation reactions.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="271.5 +/- 5.6 MU G H-1 MGCAT-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">271.5 +/- 5.6 mu g h-1 mgcat-1 is the yield of nitrate produced by the Q[6]-PMA electrocatalyst in the nitrogen oxidation reaction.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="71.2 +/- 3.8%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">71.2 +/- 3.8% is the Faradaic efficiency of the Q[6]-PMA electrocatalyst in the nitrogen oxidation reaction.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="1.5 EV">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">1.5 eV is the kinetic barrier identified as the rate-limiting step for the production of the second NH3 molecule during nitrogen reduction reactions on certain surfaces.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="2.0 EV">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">2.0 eV is the kinetic barrier identified as the rate-limiting step for the production of the second NH3 molecule during nitrogen reduction reactions on certain surfaces.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="FE2(MOO4)3">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Fe2(MoO4)3 is a bimetallic oxide synthesized via a one-step hydrothermal method, coated with carbon black to enhance its performance in nitrogen reduction reactions.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="FE2(MOO4)3/C">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Fe2(MoO4)3/C is the carbon-coated version of Fe2(MoO4)3, which minimizes aggregation and improves electrical conductivity for enhanced electrochemical activity.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="51.76 MG H-1 MGCAT-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">51.76 mg h-1 mgcat-1 is the ammonia yield achieved by the Fe2(MoO4)3/C electrocatalyst.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="H-BN">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">h-BN is a material investigated for its properties in capturing and reducing NO in the electrochemical NO reduction reaction.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="-0.4 VRHE">
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="-0.35 VRHE">
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="C-DOPED H-BN">
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="-0.28 V">
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="ALPHA-MOC">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">alpha-MoC is a material used in the nitrogen reduction reaction, specifically in conjunction with Co to enhance catalytic activity.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="BIMETALLIC CENTER">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">The bimetallic center consisting of Co and alpha-MoC is designed to improve the efficiency of ammonia synthesis during nitrogen reduction reactions.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="HYDROGENATION PROCESSES">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Hydrogenation processes refer to the chemical reactions involving the addition of hydrogen, which are essential in the context of ammonia synthesis.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="NITROGEN OXIDATION REACTION (NOR)">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The nitrogen oxidation reaction (NOR) is a critical reaction condition for the conversion of nitrogen to nitrate using electrocatalysts.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="NITROGEN REDUCTION REACTION (NRR)">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The nitrogen reduction reaction (NRR) is a key reaction condition for synthesizing ammonia from nitrogen.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="15N ISOTOPE-LABELING">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">15N isotope-labeling is a method used to trace the nitrogen source in the production of ammonia, confirming its origin from N2.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="IN SITU XPS">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">In situ XPS is a technique used to analyze the active sites of the electrocatalyst during the nitrogen oxidation reaction.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="IN SITU FITR">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">In situ FITR is a technique used to study the stability of key intermediates in the nitrogen oxidation reaction.</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="HYDROGEN EVOLUTION REACTION">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The hydrogen evolution reaction is a competing reaction that can affect the selectivity of the nitrogen oxidation reduction reaction.)&lt;|COMPLETE|&gt;</data>
+      <data key="d2">1f2836bbd53443f6227a793e2d21467a</data>
+    </node>
+    <node id="PD">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Pd is a chemical element used to synthesize PdFe3 nano-alloy for nitrogen reduction reactions.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="PDFE3">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">PdFe3 is an electrocatalyst synthesized from palladium and iron, optimized for ammonia production in nitrogen reduction reactions.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="29.07 MU G H(-1) MG(CAT).(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">29.07 mu g h(-1) mg(cat).(-1) is the ammonia yield achieved with the PdFe3 electrocatalyst.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="22.8%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">22.8% is the faradaic efficiency of the PdFe3 electrocatalyst in nitrogen reduction reactions.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="0.07 EV">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">0.07 eV is the energy barrier for the first-step protonation in the nitrogen reduction reaction facilitated by the PdFe3 electrocatalyst.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="MIL-125(TI)-250">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">MIL-125(Ti)-250 is a photocatalyst obtained through thermal calcination, enhancing nitrogen fixation efficiency.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="156.9 MU MOL G(-1) H(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">156.9 mu mol g(-1) h(-1) is the ammonia yield achieved with the MIL-125(Ti)-250 photocatalyst.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="76.2 MU MOL G(-1) H(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">76.2 mu mol g(-1) h(-1) is the ammonia yield of the parent MIL-125(Ti) photocatalyst.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="TI3+">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Ti3+ is a titanium species induced by oxygen vacancies in MIL-125(Ti)-250, enhancing its photocatalytic activity.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="ZR2CO2">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Zr2CO2 is an electrocatalyst modified with transition metals and nonmetals to enhance nitrogen reduction reaction performance.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="0.14 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">0.14 V is the NRR overpotential for W/Zr2CO2, indicating its performance in nitrogen reduction reactions.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+      <data key="d3">REACTION CONDITION</data>
+    </node>
+    <node id="0.26 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">0.26 V is the NRR overpotential for B/Zr2CO2, indicating its performance and selectivity in nitrogen reduction reactions.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+      <data key="d3">REACTION CONDITION</data>
+    </node>
+    <node id="0.54 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">0.54 V is the NRR overpotential for RuN3/Zr2CO2, indicating its highest activity among co-doped systems.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+      <data key="d3">REACTION CONDITION</data>
+    </node>
+    <node id="MIL-125(TI)">
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="S">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">S is a chemical element used in the sulfur-doped graphene catalysts for enhancing nitrogen reduction reaction performance.
+S is a chemical element that is doped in the studied vanadium-anchored sulfur-doped graphene catalysts for nitrogen reduction reactions (NRR).</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4,82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="V-SXCNC-X@GR">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">V-SxCNc-x@Gr is a vanadium-anchored sulfur-doped graphene electrocatalyst studied for its nitrogen reduction reaction performance.</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </node>
+    <node id="U-L">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">U-L is the limiting potential for the V-S2C@Gr electrocatalyst, indicating its performance in nitrogen reduction reactions.
+</data>
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4,82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="V">
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4,82eae126e79e74d3a7b3e223e50527b6</data>
+      <data key="d1">
+V is a chemical element that is anchored in the studied vanadium-anchored sulfur-doped graphene catalysts for nitrogen reduction reactions (NRR).</data>
+    </node>
+    <node id="V-S2C@GR">
+      <data key="d2">7da97e0fb996d9010e425e7dccff4ce4,82eae126e79e74d3a7b3e223e50527b6</data>
+      <data key="d1">
+V-S2C@Gr is an electrocatalyst that exhibits superior activity with a limiting potential (U-L) of -0.17 V for nitrogen reduction reactions (NRR).</data>
+    </node>
+    <node id="V-S-3@GR">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">V-S-3@Gr is an electrocatalyst that shows even better performance than V-S2C@Gr for nitrogen reduction reactions (NRR).</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="-0.17 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">-0.17 V is the limiting potential (U-L) for the electrocatalyst V-S2C@Gr in nitrogen reduction reactions (NRR).</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="GIBBS FREE ENERGY">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">Gibbs free energy is a thermodynamic property that indicates the spontaneity of the nitrogen reduction reaction (NRR) on V-S-3@Gr, which is an exothermic process.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="CU SA/NC">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Cu SA/NC is an electrocatalyst that incorporates a single atom of Cu in nitrogen-doped carbon, exhibiting high atomic economy and superior NH3 Faradaic efficiency (FE).</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="100%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">100% is the Faradaic efficiency (FE) achieved by the Cu SA/NC electrocatalyst for ammonia (NH3) synthesis.
+100% is the maximum Faradaic efficiency achieved by Cu/NC for NH3 synthesis.
+100% is the Faradaic efficiency of ammonia synthesis achieved by the modified Cu/Cu2O electrocatalyst at -0.6 V vs RHE.
+100% is the Faradaic efficiency achieved by the Cu-dispersed OMS-1 during the nitrate reduction to ammonia.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de,82eae126e79e74d3a7b3e223e50527b6,d044f043745b616cdb4686943e868600,f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="7480 MU G H(-1) MG(CAT.)(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">7480 mu g h(-1) mg(cat.)(-1) is the NH3 yield rate of the Cu SA/NC electrocatalyst, indicating its high performance in ammonia synthesis.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="3D CORE-SHELL STRUCTURED CO-CARBON NANOFIBERS (CNF)/ZIF-COP">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">3D core-shell structured Co-carbon nanofibers (CNF)/ZIF-CoP is an electrocatalyst fabricated for nitrate reduction to ammonia (NO3RR) application.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="NO3RR">
+      <data key="d1">NO3RR (nitrate reduction reaction) is a synthesis method regarded as a viable alternative to the Haber Bosch process for ammonia (NH3) production.
+</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6,a8606309ea3bf3c8b10f3c85acbd1371</data>
+      <data key="d3">SYNTHESIS METHOD</data>
+    </node>
+    <node id="-0.4 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">-0.4 V is the limiting potential predicted for six superior catalysts in nitrogen reduction reactions (NRR).</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="CO-CARBON NANOFIBERS (CNF)">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Co-carbon nanofibers (CNF) is the morphology of the 3D core-shell structured electrocatalyst designed for nitrate reduction to ammonia (NO3RR).
+Co-carbon nanofibers (CNF) are used in conjunction with ZIF-CoP to enhance the performance of nitrate reduction reactions.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="ZIF-COP">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">ZIF-CoP is part of the 3D core-shell structured electrocatalyst designed for nitrate reduction to ammonia (NO3RR).
+ZIF-CoP is an electrocatalyst that, when combined with Co-carbon nanofibers, exhibits high NH3 Faradaic efficiency and yield rates for nitrate reduction reactions.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="H-1-NMR">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">H-1-NMR (proton nuclear magnetic resonance) is a technique used for detecting multiple molecules in photo/electrocatalysis.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="PEAK INTEGRAL">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Peak integral is one of the data processing methods developed for precise H-1-NMR data processing.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="PEAK HEIGHT">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Peak height is another data processing method developed for precise H-1-NMR data processing.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="WATER SUPPRESSION">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">Water suppression is a condition that induces baseline distortions in H-1-NMR tests, affecting the detection of low-concentration products.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="N-2 REDUCTION">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">N-2 reduction is a synthesis method that is analyzed for performance factors using interpretable machine learning (ML).</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="SINGLE-ATOM CATALYSTS (SACS)">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Single-atom catalysts (SACs) are a type of electrocatalyst screened for performance in nitrogen reduction reactions (NRR).
+Single-atom catalysts (SACs) are investigated for their performance in ammonia synthesis from nitrate reduction.</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="BC3 MONOLAYER">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">BC3 monolayer is the morphology used to support single-atom catalysts (SACs) in the study of nitrogen reduction reactions (NRR).</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="N-V">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">N-v (number of valence electrons) is a crucial feature affecting the performance of nitrogen reduction reactions (NRR).</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="N-N">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">N-n (nitrogen substitution) is another crucial feature affecting the performance of nitrogen reduction reactions (NRR).)&lt;|COMPLETE|&gt;</data>
+      <data key="d2">82eae126e79e74d3a7b3e223e50527b6</data>
+    </node>
+    <node id="CO">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Co is a chemical element used in the fabrication of Co-carbon nanofibers (CNF) and ZIF-CoP for nitrate reduction reactions (NO3RR).
+Co is a chemical element that is part of the asymmetrical heterobimetallic FeCo dimer sites, contributing to the activation of N2 for ammonia synthesis.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="AMORPHOUS COP">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Amorphous CoP is a structural form of CoP that provides desirable mass transfer ability in the electrocatalytic process.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="CRYSTAL COP">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Crystal CoP is another structural form of CoP that is compared with amorphous CoP in terms of electrocatalytic performance.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="96.8 +/- 3.4%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">96.8 +/- 3.4% is the Faradaic efficiency achieved by Co-CNF/ZIF-CoP at -0.1 V vs RHE during nitrate reduction reactions.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="38.44 +/- 0.65 MG CM-2 H-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">38.44 +/- 0.65 mg cm-2 h-1 is the NH3 yield rate achieved by Co-CNF/ZIF-CoP at -0.6 V vs RHE during nitrate reduction reactions.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="AUCU NWS">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">AuCu NWs are ultrafine nanowires synthesized for efficient electrochemical ammonia synthesis.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="31.57 MU G H-1 MG-1CAT">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">31.57 mu g h-1 mg-1cat is the NH3 yield achieved by AuCu NWs at a low potential of -0.2 V under neutral conditions.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="22.1%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">22.1% is the Faradaic efficiency achieved by AuCu NWs during the electrochemical ammonia synthesis.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="CU/NC">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Cu/NC is a single-atom catalyst that exhibits good performance toward NH3 synthesis with a maximum Faradaic efficiency of 100%.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="32,300 MU G H(-1) MG(CAT.)(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">32,300 mu g h(-1) mg(cat.)(-1) is the high NH3 yield rate achieved by Cu/NC for ammonia production.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="MO">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Mo is a chemical element that is part of the heteronuclear dual-atom catalysts (DACs) designed for nitrogen fixation.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="G-C3N4">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">g-C3N4 is a substrate used to anchor the heteronuclear dual-atom catalysts (DACs) for nitrogen fixation.
+g-C3N4 is a material used to immobilize the Fe-Mo center in the dual-atom catalysts for enhanced nitrogen fixation activity.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="FEMON6-AXA">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">FeMoN6-aXa are heteronuclear dual-atom catalysts designed to probe the impact of coordination on nitrogen fixation.
+FeMoN6-aXa is a type of dual-atom catalyst (DAC) that has been studied for its nitrogen reduction reaction (NRR) performance using density functional theory.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="12 DIFFERENT FEMON6-AXA DACS">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">A series of 12 different FeMoN6-aXa DACs have been systematically studied for their nitrogen reduction reaction performance.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="FEMON5O1">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">FeMoN5O1 is one of the DACs that displayed promising nitrogen reduction reaction performance with an ultralow limiting potential.
+FeMoN5O1 is a dual-atom catalyst that stands out due to its ultralow limiting potential of -0.11 V and high selectivity in nitrogen reduction reactions.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="-0.1 V VS RHE">
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="-0.6 V VS RHE">
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="-0.11 V">
+      <data key="d2">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+      <data key="d1">
+-0.11 V is the ultralow limiting potential associated with the electrocatalyst FeMoN5O1, indicating its efficiency in nitrogen reduction reactions.</data>
+    </node>
+    <node id="HABER BOSCH PROCESS">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">The Haber Bosch process is a traditional method for ammonia production that NO3RR aims to provide an alternative to.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="PROTONATION OF *NO">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The protonation of *NO is a critical reaction condition in the nitrate reduction reaction that leads to the formation of *NOH intermediates.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="NITROGEN-DOPED CARBON">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Nitrogen-doped carbon serves as a substrate for single-atom catalysts in nitrate reduction reactions.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="ELECTRON TRANSFER CAPACITY">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The extent of electron transfer capacity is a key factor influencing the activity of single-atom catalysts in nitrate reduction.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="DENSITY FUNCTIONAL THEORY (DFT)">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Density functional theory (DFT) calculations are used to study the electronic structure and performance of catalysts in nitrate reduction.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="ULTRAFINE NANOWIRE STRUCTURES">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Ultrafine nanowire structures are designed for efficient electrocatalytic reduction of nitrogen to ammonia.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="HIGH ENERGY BARRIER">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The high energy barrier of nitrogen activation is a challenge in electrochemical nitrogen reduction reactions.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="ELECTROCHEMICAL NITROGEN REDUCTION REACTION (NRR)">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Electrochemical nitrogen reduction reaction (NRR) is a method for producing ammonia that is considered green and sustainable.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="BIMETALLIC COMPOSITION">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Bimetallic composition in catalysts can optimize the adsorption energy of intermediates during the nitrogen reduction process.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="ULTRAFINE GOLD-COPPER NANOWIRES">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Ultrafine gold-copper nanowires (AuCu NWs) are synthesized for their high efficiency in electrochemical ammonia synthesis.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="NITROGEN FIXATION">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Nitrogen fixation refers to the process of converting nitrogen gas into ammonia, which is a key reaction in agriculture and industry.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="FEMON5B1">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">FeMoN5B1 is one of the heteronuclear dual-atom catalysts studied for nitrogen reduction reaction performance.
+FeMoN5B1 is one of the four DACs that displayed promising performance in nitrogen reduction reactions.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="FEMON4O2">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">FeMoN4O2 is another heteronuclear dual-atom catalyst that has been evaluated for its nitrogen reduction reaction performance.
+FeMoN4O2 is another DAC that has been evaluated for its nitrogen reduction reaction performance.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="FEMON3C3">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">FeMoN3C3 is also part of the series of heteronuclear dual-atom catalysts studied for nitrogen fixation.
+FeMoN3C3 is one of the DACs studied for nitrogen reduction reaction performance.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="LIMITING POTENTIAL">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The limiting potential is a critical parameter that influences the performance of catalysts in nitrogen reduction reactions.</data>
+      <data key="d2">d044f043745b616cdb4686943e868600</data>
+    </node>
+    <node id="RU-TTA-DFP">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Ru-Tta-Dfp is an in situ proton filter covalent organic framework catalyst that enhances nitrogen reduction reaction efficiency by controlling reactant diffusion.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="2.03 MG H-1 MGCAT-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">2.03 mg h-1 mgcat-1 is the ammonia production yield rate achieved with the Ru-Tta-Dfp catalyst.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="52.9%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">52.9% is the faradaic efficiency of the Ru-Tta-Dfp catalyst in nitrogen reduction reactions.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="1.7 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">1.7 V is the applied potential at which the NRR-OER coupled full cell initiated ammonia production.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="1.08 MG H-1 MGCAT-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">1.08 mg h-1 mgcat-1 is the ammonia production rate at the cathode of the NRR-OER coupled full cell.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="300 MV">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">300 mV is the OER overpotential measured during the half-cell investigations.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="LACU0.1FE0.9O3-DELTA">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">LaCu0.1Fe0.9O3-delta is an electrocatalyst developed for nitrogen reduction reactions based on B-site Cu doping in LaFeO3 perovskite.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="PROTONIC CERAMIC ELECTROLYSIS CELL (PCEC)">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">A protonic ceramic electrolysis cell (PCEC) is a method used for nitrogen reduction reactions, enhancing the performance of electrocatalysts.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="HYDROGEN EVOLUTION REACTION (HER)">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The hydrogen evolution reaction (HER) is a competing reaction that affects the conversion yield and Faradaic efficiency in nitrogen reduction reactions.
+HER refers to the hydrogen evolution reaction, which is a competing reaction in the context of nitrogen reduction reactions (NRR).</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302,a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="DENSITY FUNCTIONAL THEORY">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Density functional theory is a computational method used to study the properties and performance of electrocatalysts in nitrogen reduction reactions.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="SONOCHEMICAL REDUCTION (SR)">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Sonochemical reduction (SR) is a method used to synthesize NixBy catalysts, which showed better performance in nitrogen reduction reactions.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="0.81 MG H-1 MGCAT-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">0.81 mg h-1 mgcat-1 is the oxygen production rate at the anode of the NRR-OER coupled full cell.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="LONG-TERM STABILITY">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">Long-term stability is a critical factor for evaluating the performance of electrocatalysts in nitrogen reduction reactions.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="SYNERGISTIC EFFECT">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The synergistic effect between Cu and Fe enhances the nitrogen reduction reaction activity of the LaCu0.1Fe0.9O3-delta electrocatalyst.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="ELECTRON TRANSFER RATE">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">The electron transfer rate is a significant factor that influences the nitrogen reduction reaction rate in electrocatalysts.</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="OXYGEN VACANCIES (OVS)">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Oxygen vacancies (OVs) are defects in the structure of the electrocatalyst that can enhance nitrogen activation during the reduction process.)&lt;|COMPLETE|&gt;</data>
+      <data key="d2">6861c4979a52c8680a63819039da4302</data>
+    </node>
+    <node id="OVS">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">OVs, or oxygen vacancies, are generated around Cu+ and are helpful for activating N2 in the nitrogen reduction reaction (NRR).</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="LMNRR">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Lithium-mediated nitrogen reduction reaction (LMNRR) is a method that holds promise for sustainable and green ammonia production, potentially replacing the Haber-Bosch process.</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="54.78 +/- 1.60 %">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">54.78 +/- 1.60 % is the Faradaic efficiency achieved in the lithium-mediated nitrogen reduction reaction (LMNRR).</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="24,526 MU G H(-1) MG(CAT.)(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">24,526 mu g h(-1) mg(cat.)(-1) is the NH3 yield achieved by the dual-atom catalyst (FeCu DAC) at -0.6 V.</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="99.88 %">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">99.88 % is the Faradaic efficiency for NH3 production achieved by the dual-atom catalyst (FeCu DAC).</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="FECU DAC">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">FeCu DAC is a dual-atom catalyst that exhibits remarkable NH3 yield and Faradaic efficiency in the nitrite reduction reaction (NO2RR).</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="NO2RR">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Nitrite reduction reaction (NO2RR) is a promising alternative to the nitrogen reduction reaction (NRR) for generating NH3.</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="32.16%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">32.16% is the Faradaic efficiency achieved by the asymmetrical heterobimetallic catalyst in the nitrogen reduction reaction (NRR).</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="70.11 MU G H-1 MG-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">70.11 mu g h-1 mg-1 is the ammonia yield rate delivered by the asymmetrical heterobimetallic catalyst.</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="23.6 MW CM(-2)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">23.6 mW cm(-2) is the record-breaking power density achieved by the FeCu DAC in a Zn-NO2 battery.</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="92.23 %">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">92.23 % is the maximum Faradaic efficiency for NH3 production achieved by the FeCu DAC at 20 mA cm(-2).</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="N2">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">N2 is the nitrogen molecule that is reduced in the nitrogen reduction reaction (NRR) to produce ammonia.
+N2 is the nitrogen gas used in the nitrogen reduction reaction (NRR) and is essential for ammonia synthesis.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640,dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="HABER-BOSCH PROCESS">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">The Haber-Bosch process is a traditional method for ammonia production that the lithium-mediated nitrogen reduction reaction (LMNRR) aims to replace.
+The Haber-Bosch process is a traditional method for ammonia production that is being compared with renewable methods.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371,dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="4.7%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">4.7% is the average error in the experimental data used to validate the mathematical model for the electrochemical reduction of N2 to NH3.</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="RING-CHAIN COUPLING LAW">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">The ring-chain coupling law is an empirical design law extended to the lithium-mediated ammonia electrochemical synthesis system to optimize the interface during the reaction process.</data>
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="FECO">
+      <data key="d2">dd2c218d3654db0045b7149ccc6ca802</data>
+    </node>
+    <node id="ZN">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Zn is a chemical element used in the synthesis of zinc metal-organic framework (Zn-MOF) catalysts for nitrogen reduction reactions.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="ZN-N2S2-MOF">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Zn-N2S2-MOF is an electrocatalyst that exhibits the best performance for nitrogen reduction reaction (NRR) with a high NH3 yield rate.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="FE2O3">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Fe2O3 is an electrocatalyst that, when doped with Cu, shows improved performance in nitrogen reduction reactions.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="MOS2">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">MoS2 is an electrocatalyst that can be co-doped with Fe and Co to enhance its performance in nitrogen reduction reactions.
+MoS2 is an electrocatalyst that exhibits promising activity in the reduction of nitrogen to produce ammonia, but its lack of reactive sites limits its performance.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2,534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="NH3 YIELD RATE OF 25.07 +/- 1.57 MU G H-1 CM-2">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">The NH3 yield rate of 25.07 +/- 1.57 mu g h-1 cm-2 is the performance metric for Zn-N2S2-MOF in nitrogen reduction reactions.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="FARADAIC EFFICIENCY OF 44.57 +/- 2.79%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">The Faradaic efficiency of 44.57 +/- 2.79% is the performance metric for Zn-N2S2-MOF in nitrogen reduction reactions.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="-0.50 - -0.02 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">-0.50 - -0.02 V is the range of limiting potential for the TM3@g-C3N4 electrocatalysts in nitrogen reduction reactions.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="FARADAIC EFFICIENCY OF 6.28%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">The Faradaic efficiency of 6.28% is the performance metric for the FeCo-MoS2 nanosheets in nitrogen reduction reactions.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="FECO-MOS2">
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2,534ba1e4c38684a8afd1ac8b8110b5de</data>
+      <data key="d1">
+FeCo-MoS2 is an electrocatalyst that follows a distal pathway for nitrogen reduction reactions, showing superior electrocatalytic activity compared to undoped MoS2.</data>
+    </node>
+    <node id="-0.15 V VS RHE">
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="-0.55 V">
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2,534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="CU-DOPED HEMATITE (FE2O3)">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Cu-doped hematite (Fe2O3) is an electrocatalyst that shows improved nitrogen reduction reaction performance due to the introduction of Cu.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="3.27 MG/H/CM2">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">3.27 mg/h/cm2 is the NH3 yield rate achieved by FeCo-MoS2 nanosheets at an optimal doping concentration.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="12.5 MU G H(-1) MG(CAT.)(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">12.5 mu g h(-1) mg(cat.)(-1) is the NH3 formation rate for Cu-doped Fe2O3 at -0.15 V vs RHE.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="16.4%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">16.4% is the Faradaic efficiency for Cu-doped Fe2O3 at -0.15 V vs RHE.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="6.28%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">6.28% is the Faradaic efficiency achieved by FeCo-MoS2 nanosheets at -0.35 V vs RHE.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="HYDROTHERMAL TREATMENT">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Hydrothermal treatment is the synthesis method used to create Cu-doped hematite (Fe2O3) nanorod arrays.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="ANNEALING UNDER A N2 ATMOSPHERE">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">Annealing under a N2 atmosphere is part of the synthesis method for Cu-doped hematite (Fe2O3) nanorod arrays.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="SYMMETRY-BREAKING ZINC METAL-ORGANIC FRAMEWORK (ZN-MOF)">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Symmetry-breaking Zn-MOF catalysts are synthesized to enhance nitrogen reduction reaction performance.</data>
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="ASYMMETRICAL HETEROBIMETALLIC SITES">
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="FECO DIMER SITES">
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="CU-DOPED FE2O3">
+      <data key="d2">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </node>
+    <node id="CU2O">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Cu2O is part of the Cu/Cu2O electrocatalyst system that is modified with hydrophilic zeolite to enhance ammonia production.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="ZEOLITE">
+      <data key="d0">ELECTROLYTE TYPE</data>
+      <data key="d1">Zeolite is used to modify the Cu/Cu2O electrocatalyst, enhancing its performance in ammonia synthesis.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="41.65 MG H-1 CM-2">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">41.65 mg h-1 cm-2 is the NH3 production rate achieved by the modified Cu/Cu2O electrocatalyst at -0.6 V vs RHE.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="-0.35 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">-0.35 V is the applied potential at which the Faradaic efficiency of 6.28% is measured for the FeCo-MoS2 electrocatalyst.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="-0.60 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">-0.60 V is the applied potential at which the NH3 yield rate of 68.78 &#181;g h-1 mg-cat-1 is achieved by NiSx/MoS2 composites.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="-0.50 V">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">-0.50 V is the applied potential at which the Faradaic efficiency of 48.53% is measured for NiSx/MoS2 composites.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="NISX/MOS2">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">NiSx/MoS2 is a heterostructural composite that exhibits excellent electrocatalytic activity in the reduction of nitrogen to produce ammonia.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="TIO2">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">TiO2 is a defect-rich nanosheet electrocatalyst designed to enhance the reactivity and selectivity trends of N2 cleavage for ammonia synthesis.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="PDCU">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">PdCu is an alloy used in the design of the PdCu/TiO2-x catalyst to facilitate nitrogen reduction.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="5.0 MMOL GCAT-1 H-1">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">5.0 mmol gcat-1 h-1 is the rate of NH3 evolution achieved by the PdCu/TiO2-x catalyst.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="48.53 %">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">48.53 % is the Faradaic efficiency measured for NiSx/MoS2 composites at -0.50 V (vs. RHE).</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="0.54 EV">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">0.54 eV is the energy barrier for the potential-determining step of the FeCo-MoS2 electrocatalyst in nitrogen reduction reactions.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="1.13 EV">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">1.13 eV is the energy barrier for the potential-determining step of undoped MoS2 in nitrogen reduction reactions.</data>
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="68.78 &#924;G H-1 MG-CAT-1">
+      <data key="d2">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </node>
+    <node id="TM">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">TM refers to transition metal atoms that facilitate nitrogen reduction in the TM@BC3N2 systems, exhibiting remarkable catalytic activity in the nitrogen-reduction reaction (NRR).</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="BC3N2">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">BC3N2 is an electrocatalyst that incorporates transition metal atoms (TM) to enhance nitrogen reduction reaction (NRR) activity.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="V-N">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">V-N represents convex nitrogen defects that influence the interaction between N-2 and TM@BC3N2, affecting the NRR process.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="ENRR">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">eNRR refers to the electrochemical nitrogen reduction reaction, which is influenced by the presence of V-N in the TM@BC3N2 systems.
+
+The electrochemical nitrogen reduction reaction (eNRR) is a method for ammonia production that aims to be more efficient and environmentally friendly.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640,a8606309ea3bf3c8b10f3c85acbd1371,f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="MO-BN@IN2SE3">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Mo-BN@In2Se3 is a ferroelectric heterostructure that can exhibit semiconducting or metallic features, acting as an electrocatalyst for nitrogen reduction reactions (NRR).</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="WSE2@IN2SE3">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">WSe2@In2Se3 is another ferroelectric heterostructure that serves as an electrocatalyst for nitrogen reduction reactions (NRR).</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="CR@B2C3N">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Cr@B2C3N is a single-atom catalyst designed for nitrogen reduction reaction (NRR) with strong stability and high activity.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="MN@B2C3N">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Mn@B2C3N is another single-atom catalyst designed for nitrogen reduction reaction (NRR) with strong stability and high activity.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="NIMNOX@CC">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">NiMnOx@CC is a bimetallic oxide electrocatalyst synthesized on carbon cloth, exhibiting excellent electrochemical properties for nitrogen reduction.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="16 MU G(-1) H(-1) MG(-1)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">16 mu g(-1) h(-1) mg(-1) is the ammonia yield of the NiMnOx-3@CC electrocatalyst, indicating its efficiency in nitrogen reduction.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="19%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">19% is the Faradaic efficiency of the NiMnOx-3@CC electrocatalyst at -0.1 V vs. RHE, indicating its effectiveness in the nitrogen reduction reaction.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="NRR">
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="-0.1 V VS. RHE">
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="NH3">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">NH3, or ammonia, is the product of the nitrogen reduction reaction (NRR) and plays a crucial role in ecological cycles and industrial production.
+</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640,f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="BIMETALLIC OXIDES">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Bimetallic oxides are electrocatalysts that exhibit strong electrocatalytic activity due to the synergistic effects between different metals.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="3D FLOWER-LIKE STRUCTURE">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">The 3D flower-like structure refers to the morphology of the nickel-manganese bimetallic oxides formed during synthesis, which enhances catalytic properties.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="NANOSHEETS">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">Nanosheets are the structural components that form the 3D flower-like structure of the nickel-manganese bimetallic oxides, contributing to their catalytic efficiency.</data>
+      <data key="d2">a84b8096f27998631e6ca69852756640</data>
+    </node>
+    <node id="NBN">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">NbN is a bimetallic nitride electrocatalyst prepared via the urea-glass route, used for the electrochemical nitrogen reduction reaction (NRR).</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="UREA-GLASS ROUTE">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">The urea-glass route is a synthesis method used to prepare NbN by annealing a mixture of NbCl5 and urea at 650 degrees C under a flow of N2.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="5.46 X 10-10 MOL S-1 CM-2">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">5.46 x 10-10 mol s-1 cm-2 is the maximum production rate of ammonia achieved with the NbN electrocatalyst at -0.6 V vs. RHE.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="16.33%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">16.33% is the apparent Faradaic efficiency of the NbN electrocatalyst at -0.3 V vs. RHE.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="-0.3 V VS. RHE">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">-0.3 V vs. RHE is the applied potential at which the Faradaic efficiency of NbN is measured.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="CU(X)-OMS-1">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">Cu(x)-OMS-1 is an electrocatalyst that optimizes the adsorption capabilities of intermediates in the electrochemical nitrate reduction reaction (NITRR).</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="148 MA CM(-2)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">148 mA cm(-2) is the maximum NH3 partial current density reached during the nitrate reduction reaction using the Cu-dispersed OMS-1 catalyst.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="0.69 MMOL H(-1) CM(-2)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">0.69 mmol h(-1) cm(-2) is the high production rate of ammonia achieved with the Cu-dispersed OMS-1 catalyst.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="BUBBLE-BASED MICROREACTOR (BBMR)">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">The bubble-based microreactor (BBMR) is a novel design that promotes mass transfer during the electrochemical nitrogen reduction reaction (eNRR).</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="NAFION N112">
+      <data key="d0">ELECTROLYTE TYPE</data>
+      <data key="d1">Nafion N112 is a commonly used membrane in electrochemical cells, found to be ineffective at preventing NH3 or NH4+ crossover.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="NA2SO4">
+      <data key="d0">ELECTROLYTE TYPE</data>
+      <data key="d1">Na2SO4 is an electrolyte used in the study, affecting the crossover of NH3 and NH4+ ions in the flow cell.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="1 PPM">
+      <data key="d0">CONCENTRATION</data>
+      <data key="d1">1 ppm is the concentration level at which the NH3 or NH4+ crossover was evaluated in the flow cell.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="HIGH CURRENT DENSITY">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">High current density refers to the condition under which the Cu-dispersed OMS-1 catalyst operates effectively during the nitrate reduction reaction.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="100 MA CM(-2)">
+      <data key="d0">APPLIED POTENTIAL</data>
+      <data key="d1">100 mA cm(-2) is the applied potential at which the Cu-dispersed OMS-1 catalyst demonstrates its capacity for reducing nitrate to ammonia.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="MASS TRANSFER">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">Mass transfer is a critical reaction condition that influences the performance of electrocatalysts in the electrochemical nitrogen reduction reaction (eNRR).</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="AMBIENT TEMPERATURE AND PRESSURE">
+      <data key="d0">REACTION CONDITION</data>
+      <data key="d1">Ambient temperature and pressure are the conditions under which the electrocatalytic reduction of nitrogen to ammonia is performed in this study.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="ICP-OES">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">ICP-OES (Inductively Coupled Plasma Optical Emission Spectroscopy) is a method used to confirm the leaching of NbN in the study.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="15N2">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">15N2 is a nitrogen isotope used as the feeder gas in NMR experiments to trace the origin of produced ammonia.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="14NH4+">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">14NH4+ is the ammonium ion detected in NMR experiments, indicating the source of produced ammonia.</data>
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="TRANSITION METAL NITRIDE (TMN)">
+      <data key="d2">f25b2f8e084ecf348045f240f1473e4a</data>
+    </node>
+    <node id="NH4+">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">NH4+ is an ammonium ion that is involved in the electrochemical NH3/NH4+ production studies and is affected by the supporting electrolyte type and pH changes during electrolysis.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="NA+">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">Na+ is a sodium ion that participates in the cation exchange process with membrane-adsorbed NH4+ from the electrolyte.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="H2">
+      <data key="d0">CHEMICAL ELEMENT</data>
+      <data key="d1">H2 is a renewable hydrogen source combined with the Haber-Bosch process for ammonia production.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="(V,NI,MN)(3)O4-X/NB2O5-Y">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">(V,Ni,Mn)(3)O4-x/Nb2O5-y is a spinel-type electrocatalyst synthesized via a one-pot hydrothermal method on nickel foam, aimed at boosting eNRR performance.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="3.19 MG H(-1) CM(-2)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">3.19 mg h(-1) cm(-2) is the NH3 yield achieved from the quaternary system of the electrocatalyst at a potential of -0.5 V vs. RHE.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="22.7%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">22.7% is the faradaic efficiency of the electrocatalyst (V,Ni,Mn)(3)O4-x/Nb2O5-y, indicating its effectiveness in ammonia production.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="37.66%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">37.66% is the cell energy efficiency evaluated for the electrocatalyst performance in energy conversion.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="RUOX-CO3O4">
+      <data key="d0">ELECTROCATALYST</data>
+      <data key="d1">RuOx-Co3O4 nanoparticles are a novel electrocatalyst with abundant interfaces that enhance catalytic activity for ammonia synthesis.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="65.8 MA CM(-2)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">65.8 mA cm(-2) is the partial current density delivered by RuOx-Co3O4 for NH3 production.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="89.7%">
+      <data key="d0">FARADAIC EFFICIENCY</data>
+      <data key="d1">89.7% is the faradaic efficiency achieved by RuOx-Co3O4 for ammonia synthesis.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="210.5 MU MOL H(-1) CM(-2)">
+      <data key="d0">NH3 YIELD</data>
+      <data key="d1">210.5 mu mol h(-1) cm(-2) is the superior ammonia yield rate achieved by RuOx-Co3O4 at -0.6 V vs. RHE.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="LITHIUM-MEDIATED ELECTROCHEMICAL NITROGEN REDUCTION (LINR)">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">LiNR is a promising alternative method for ammonia synthesis that utilizes lithium salts and proton donors.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="DIMETHOXYETHANE">
+      <data key="d0">ELECTROLYTE TYPE</data>
+      <data key="d1">Dimethoxyethane is an ether-based solvent that shows the lowest potential loss among the investigated systems for LiNR.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="TETRAHYDROFURAN">
+      <data key="d0">ELECTROLYTE TYPE</data>
+      <data key="d1">Tetrahydrofuran is an ether-based solvent that achieves an outstanding faradaic efficiency of 58.5 +/- 6.1% at ambient pressure for LiNR.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="LINR">
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="ELECTROCATALYTIC NITRATE REDUCTION REACTION (NO3RR)">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">The electrocatalytic nitrate reduction reaction (NO3RR) is a method for producing ammonia that is more thermodynamically feasible than the nitrogen reduction reaction (NRR).</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="ONE-POT HYDROTHERMAL METHOD">
+      <data key="d0">SYNTHESIS METHOD</data>
+      <data key="d1">The one-pot hydrothermal method is a facile synthesis technique used to create the electrocatalyst (V,Ni,Mn)(3)O4-x/Nb2O5-y.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="NONSTOICHIOMETRIC NI-V-MN-NB OXIDE SYSTEM">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">The nonstoichiometric Ni-V-Mn-Nb oxide system refers to the morphology of the oxide system that exhibits exceptional activity in ammonia production.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="SOLID ELECTROLYTE INTERPHASE">
+      <data key="d0">MORPHOLOGY</data>
+      <data key="d1">The solid electrolyte interphase is formed during the LiNR process and impacts the characteristics of the solvent systems used.</data>
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="AMMONIA (NH3)">
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <node id="ELECTROCATALYST (V,NI,MN)(3)O4-X/NB2O5-Y">
+      <data key="d2">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </node>
+    <edge source="FE" target="3D COFS WITH FE-N4">
+      <data key="d4">1.0</data>
+      <data key="d5">Fe is a constituent element of the 3D COFs with Fe-N4, enhancing its catalytic performance in nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="FE" target="PDFE3">
+      <data key="d4">1.0</data>
+      <data key="d5">Fe is a key component in the synthesis of the PdFe3 electrocatalyst, enhancing its nitrogen reduction capabilities.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="FE" target="FEMON6-AXA">
+      <data key="d4">1.0</data>
+      <data key="d5">Fe is a chemical element that is part of the heteronuclear dual-atom catalysts (DACs) designed for nitrogen fixation, specifically FeMoN6-aXa.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="FE" target="OVS">
+      <data key="d4">1.0</data>
+      <data key="d5">Fe is associated with the generation of oxygen vacancies (OVs) that help activate N2 in the nitrogen reduction reaction (NRR).</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="FE" target="FECU DAC">
+      <data key="d4">1.0</data>
+      <data key="d5">Fe is part of the dual-atom catalyst (FeCu DAC) that enhances the performance in the nitrite reduction reaction (NO2RR).</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="FE" target="FECO-MOS2">
+      <data key="d4">1.0</data>
+      <data key="d5">Fe is one of the elements in the co-doped MoS2 that enhances the nitrogen reduction reaction performance.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="CU" target="3D COFS WITH CU-N4">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu is a constituent element of the 3D COFs with Cu-N4, affecting its catalytic performance in nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="CU" target="CU SA/NC">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu is a chemical element that is incorporated in the Cu SA/NC electrocatalyst for ammonia (NH3) synthesis.</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="CU" target="CU/NC">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu is a chemical element used in the synthesis of single-atom catalysts (SACs) for ammonia production, specifically Cu/NC.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="CU" target="OVS">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu is associated with the generation of oxygen vacancies (OVs) that help activate N2 in the nitrogen reduction reaction (NRR).</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="CU" target="FECU DAC">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu is part of the dual-atom catalyst (FeCu DAC) that enhances the performance in the nitrite reduction reaction (NO2RR).</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="CU" target="FE2O3">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu doping in Fe2O3 enhances its performance in nitrogen reduction reactions.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="CU" target="CU-DOPED HEMATITE (FE2O3)">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu enhances the nitrogen reduction reaction performance of Cu-doped hematite (Fe2O3).</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="CU" target="CU2O">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu is a component of the Cu/Cu2O electrocatalyst system, which is modified for improved ammonia synthesis.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="CU" target="CU(X)-OMS-1">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu is embedded in the Cu(x)-OMS-1 electrocatalyst to enhance its performance in nitrate reduction to ammonia.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="3D COFS WITH FE-N4" target="94.26 +/- 4.9 MU G H(-1) MG(-1)">
+      <data key="d4">1.0</data>
+      <data key="d5">94.26 +/- 4.9 mu g h(-1) mg(-1) is the NH3 yield of 3D COFs with Fe-N4, indicating its performance in nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="3D COFS WITH FE-N4" target="18.37 +/- 0.96 %">
+      <data key="d4">1.0</data>
+      <data key="d5">18.37 +/- 0.96 % is the Faradaic efficiency of 3D COFs with Fe-N4, indicating its efficiency in nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="3D COFS WITH FE-N4" target="-0.5 V VS RHE">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.5 V vs RHE is the applied potential for the electrocatalytic nitrogen reduction reaction involving 3D COFs with Fe-N4.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="3D COFS WITH CU-N4" target="BISMUTH NANOCRYSTALS">
+      <data key="d4">1.0</data>
+      <data key="d5">Bismuth nanocrystals exhibit a unique mechanism that may explain the performance differences observed in nitrogen reduction reactions involving 3D COFs with Cu-N4.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="CU2@GDY" target="NH3 YIELD">
+      <data key="d4">1.0</data>
+      <data key="d5">Cu2@GDY is identified as a catalyst with high NH3 activity and selectivity, indicating its effectiveness in nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="55.1 MU G H-1 MG CAT-1" target="AL-BPENE">
+      <data key="d4">1.0</data>
+      <data key="d5">55.1 mu g h-1 mg cat-1 is the NH3 yield rate of Al-BPene, indicating its performance in ammonia electrosynthesis.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="66.5 %" target="AL-BPENE">
+      <data key="d4">1.0</data>
+      <data key="d5">66.5 % is the Faradaic efficiency of Al-BPene for ammonia electrosynthesis, indicating its efficiency.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="27.5 MU G H(-1) MG(-1)" target="CEO2 NANOPARTICLES ANCHORED BY MON NANOSHEETS">
+      <data key="d4">1.0</data>
+      <data key="d5">27.5 mu g h(-1) mg(-1) is the NH3 yield rate achieved by CeO2 nanoparticles anchored by MoN nanosheets for nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="27.5 MU G H(-1) MG(-1)" target="CEO2">
+      <data key="d4">1.0</data>
+      <data key="d5">27.5 mu g h(-1) mg(-1) is the NH3 yield rate achieved with the CeO2 and MoN catalysts.</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="17.2 %" target="CEO2 NANOPARTICLES ANCHORED BY MON NANOSHEETS">
+      <data key="d4">1.0</data>
+      <data key="d5">17.2 % is the Faradaic efficiency of CeO2 nanoparticles anchored by MoN nanosheets for nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="NH3 YIELD" target="AL-BPENE">
+      <data key="d4">1.0</data>
+      <data key="d5">Al-BPene exhibits an NH3 yield rate of 55.1 mu g h-1 mg cat-1, indicating its effectiveness in ammonia electrosynthesis.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="AL-BPENE" target="BLACK PHOSPHORUS (BP)">
+      <data key="d4">1.0</data>
+      <data key="d5">Black phosphorus (BP) is the base material from which Al-BPene is derived, enhancing its catalytic properties for nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="AL-BPENE" target="AL3+">
+      <data key="d4">1.0</data>
+      <data key="d5">Al3+ is used to protect black phosphorene, forming Al-BPene, which exhibits enhanced reactivity for nitrogen reduction reactions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="AL-BPENE" target="FARADAIC EFFICIENCY">
+      <data key="d4">1.0</data>
+      <data key="d5">Al-BPene has a Faradaic efficiency of 66.5% for ammonia electrosynthesis, indicating its efficiency in the process.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="AL-BPENE" target="60 DEGREES C">
+      <data key="d4">1.0</data>
+      <data key="d5">At 60 degrees C, Al-BPene achieves a higher NH3 yield rate of 75 mu g h-1 mg cat-1, indicating its performance under elevated temperature conditions.</data>
+      <data key="d6">703da9f9e34da8c2a486de87aaa7dc31</data>
+    </edge>
+    <edge source="CEO2" target="MON">
+      <data key="d4">1.0</data>
+      <data key="d5">MoN is anchored to CeO2 nanoparticles to enhance their catalytic performance for nitrogen reduction reactions (NRR).</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="CEO2" target="17.2%">
+      <data key="d4">1.0</data>
+      <data key="d5">17.2% is the Faradaic efficiency achieved with the CeO2 and MoN catalysts.</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="CEO2" target="-0.3 V VS RHE">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.3 V vs RHE is the applied potential at which the performance of the CeO2 and MoN catalysts was evaluated.</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="N-CONTAINING CHEMICALS" target="LI-N-2 BATTERY">
+      <data key="d4">1.0</data>
+      <data key="d5">The Li-N-2 battery is a method proposed for the synthesis of various N-containing chemicals from N2.</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="LI-N-2 BATTERY" target="LITHIUM BIS(TRIFLUOROMETHANESULFONYL)IMIDE">
+      <data key="d4">1.0</data>
+      <data key="d5">Lithium bis(trifluoromethanesulfonyl)imide is synthesized through the cascade reactions in the Li-N-2 battery process.</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="V@B5N3" target="V@B7N5">
+      <data key="d4">1.0</data>
+      <data key="d5">Both V@B5N3 and V@B7N5 are electrocatalysts theoretically calculated for nitrogen reduction reactions (NRR).</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="V@B7N5" target="0.13 V">
+      <data key="d4">1.0</data>
+      <data key="d5">0.13 V is the overpotential at which V@B7N5 exhibits effective catalytic activity for NRR.</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="V@B7N5" target="99%">
+      <data key="d4">1.0</data>
+      <data key="d5">99% is the anticipated ammonia production efficiency for the V@B7N5 electrocatalyst.</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="RU" target="RUBN@GY">
+      <data key="d4">1.0</data>
+      <data key="d5">Ru is the single atom catalyst in RuBn@GY, which is designed for efficient nitrogen reduction reactions (NRR).</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="RU" target="RU-TTA-DFP">
+      <data key="d4">1.0</data>
+      <data key="d5">Ru is the active element in the Ru-Tta-Dfp catalyst that enhances its efficiency in nitrogen reduction reactions.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302</data>
+    </edge>
+    <edge source="RUBN@GY" target="-0.53 V">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.53 V is the limiting potential for the RuBn@GY electrocatalyst in nitrogen reduction reactions.</data>
+      <data key="d6">65aa7f5f3f7d5ce48365c0ea2d4831f1</data>
+    </edge>
+    <edge source="Q[6]" target="Q[6]-PMA">
+      <data key="d4">1.0</data>
+      <data key="d5">Q[6] is a component of the electrocatalyst Q[6]-PMA, contributing to its synthesis and properties.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="PMA" target="Q[6]-PMA">
+      <data key="d4">1.0</data>
+      <data key="d5">PMA is a component of the electrocatalyst Q[6]-PMA, contributing to its synthesis and properties.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="Q[6]-PMA" target="271.5 +/- 5.6 MU G H-1 MGCAT-1">
+      <data key="d4">1.0</data>
+      <data key="d5">The yield of nitrate produced by Q[6]-PMA is 271.5 +/- 5.6 mu g h-1 mgcat-1, indicating its effectiveness in the nitrogen oxidation reaction.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="Q[6]-PMA" target="71.2 +/- 3.8%">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of Q[6]-PMA is 71.2 +/- 3.8%, reflecting its performance in the nitrogen oxidation reaction.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="1.5 EV" target="FE2(MOO4)3/C">
+      <data key="d4">1.0</data>
+      <data key="d5">1.5 eV is the kinetic barrier for the production of the second NH3 molecule on certain surfaces, indicating a reaction condition for Fe2(MoO4)3/C.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="2.0 EV" target="FE2(MOO4)3/C">
+      <data key="d4">1.0</data>
+      <data key="d5">2.0 eV is the kinetic barrier for the production of the second NH3 molecule on certain surfaces, indicating a reaction condition for Fe2(MoO4)3/C.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="FE2(MOO4)3" target="FE2(MOO4)3/C">
+      <data key="d4">1.0</data>
+      <data key="d5">Fe2(MoO4)3 is the core material of the electrocatalyst Fe2(MoO4)3/C, which is coated with carbon black for improved performance.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="FE2(MOO4)3/C" target="51.76 MG H-1 MGCAT-1">
+      <data key="d4">1.0</data>
+      <data key="d5">The ammonia yield of 51.76 mg h-1 mgcat-1 is achieved by the electrocatalyst Fe2(MoO4)3/C, indicating its effectiveness in nitrogen reduction reactions.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="FE2(MOO4)3/C" target="-0.4 VRHE">
+      <data key="d4">1.0</data>
+      <data key="d5">The applied potential of -0.4 VRHE corresponds to the measurement of ammonia yield for Fe2(MoO4)3/C.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="FE2(MOO4)3/C" target="-0.35 VRHE">
+      <data key="d4">1.0</data>
+      <data key="d5">The applied potential of -0.35 VRHE corresponds to the measurement of Faradaic efficiency for Fe2(MoO4)3/C.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="H-BN" target="C-DOPED H-BN">
+      <data key="d4">1.0</data>
+      <data key="d5">C-doped h-BN is a modified version of h-BN that enhances its catalytic performance in the nitrogen oxidation reduction reaction.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="C-DOPED H-BN" target="-0.28 V">
+      <data key="d4">1.0</data>
+      <data key="d5">The limiting potential of -0.28 V is associated with the catalytic performance of C-doped h-BN in the nitrogen oxidation reduction reaction.</data>
+      <data key="d6">1f2836bbd53443f6227a793e2d21467a</data>
+    </edge>
+    <edge source="PD" target="PDFE3">
+      <data key="d4">1.0</data>
+      <data key="d5">Pd is a key component in the synthesis of the PdFe3 electrocatalyst, enhancing its nitrogen reduction capabilities.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="PDFE3" target="29.07 MU G H(-1) MG(CAT).(-1)">
+      <data key="d4">1.0</data>
+      <data key="d5">29.07 mu g h(-1) mg(cat).(-1) is the ammonia yield achieved with the PdFe3 electrocatalyst.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="PDFE3" target="22.8%">
+      <data key="d4">1.0</data>
+      <data key="d5">22.8% is the faradaic efficiency of the PdFe3 electrocatalyst in nitrogen reduction reactions.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="PDFE3" target="0.07 EV">
+      <data key="d4">1.0</data>
+      <data key="d5">0.07 eV is the energy barrier for the first-step protonation in the nitrogen reduction reaction facilitated by the PdFe3 electrocatalyst.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="MIL-125(TI)-250" target="156.9 MU MOL G(-1) H(-1)">
+      <data key="d4">1.0</data>
+      <data key="d5">156.9 mu mol g(-1) h(-1) is the ammonia yield achieved with the MIL-125(Ti)-250 photocatalyst.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="MIL-125(TI)-250" target="TI3+">
+      <data key="d4">1.0</data>
+      <data key="d5">Ti3+ is induced by oxygen vacancies in MIL-125(Ti)-250, enhancing its photocatalytic activity.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="76.2 MU MOL G(-1) H(-1)" target="MIL-125(TI)">
+      <data key="d4">1.0</data>
+      <data key="d5">76.2 mu mol g(-1) h(-1) is the ammonia yield of the parent MIL-125(Ti) photocatalyst, indicating its performance compared to MIL-125(Ti)-250.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="ZR2CO2" target="0.14 V">
+      <data key="d4">1.0</data>
+      <data key="d5">0.14 V is the NRR overpotential for W/Zr2CO2, indicating its performance in nitrogen reduction reactions.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="ZR2CO2" target="0.26 V">
+      <data key="d4">1.0</data>
+      <data key="d5">0.26 V is the NRR overpotential for B/Zr2CO2, indicating its performance and selectivity in nitrogen reduction reactions.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="ZR2CO2" target="0.54 V">
+      <data key="d4">1.0</data>
+      <data key="d5">0.54 V is the NRR overpotential for RuN3/Zr2CO2, indicating its highest activity among co-doped systems.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="S" target="V-SXCNC-X@GR">
+      <data key="d4">1.0</data>
+      <data key="d5">S is a key component in the synthesis of the V-SxCNc-x@Gr electrocatalyst, enhancing its nitrogen reduction capabilities.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="S" target="V-S2C@GR">
+      <data key="d4">1.0</data>
+      <data key="d5">S is a chemical element that is doped in the V-S2C@Gr electrocatalyst for nitrogen reduction reactions (NRR).</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="S" target="V-S-3@GR">
+      <data key="d4">1.0</data>
+      <data key="d5">S is a chemical element that is doped in the V-S-3@Gr electrocatalyst for nitrogen reduction reactions (NRR).</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="V-SXCNC-X@GR" target="V">
+      <data key="d4">1.0</data>
+      <data key="d5">V is a key component in the synthesis of the V-SxCNc-x@Gr electrocatalyst, enhancing its nitrogen reduction capabilities.</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4</data>
+    </edge>
+    <edge source="U-L" target="V-S2C@GR">
+      <data key="d4">2.0</data>
+      <data key="d5">U-L is the limiting potential for the V-S2C@Gr electrocatalyst, indicating its performance in nitrogen reduction reactions.
+The limiting potential (U-L) of -0.17 V corresponds to the performance of the V-S2C@Gr electrocatalyst in nitrogen reduction reactions (NRR).</data>
+      <data key="d6">7da97e0fb996d9010e425e7dccff4ce4,82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="V" target="V-S2C@GR">
+      <data key="d4">1.0</data>
+      <data key="d5">V is a chemical element that is part of the V-S2C@Gr electrocatalyst used for nitrogen reduction reactions (NRR).</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="V" target="V-S-3@GR">
+      <data key="d4">1.0</data>
+      <data key="d5">V is a chemical element that is part of the V-S-3@Gr electrocatalyst used for nitrogen reduction reactions (NRR).</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="V-S-3@GR" target="GIBBS FREE ENERGY">
+      <data key="d4">1.0</data>
+      <data key="d5">The Gibbs free energy indicates that the nitrogen reduction reaction (NRR) on V-S-3@Gr is an exothermic process, suggesting spontaneous occurrence without external potential.</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="CU SA/NC" target="100%">
+      <data key="d4">1.0</data>
+      <data key="d5">100% is the Faradaic efficiency (FE) of the Cu SA/NC electrocatalyst for ammonia (NH3) synthesis.</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="CU SA/NC" target="7480 MU G H(-1) MG(CAT.)(-1)">
+      <data key="d4">1.0</data>
+      <data key="d5">7480 mu g h(-1) mg(cat.)(-1) is the NH3 yield rate of the Cu SA/NC electrocatalyst, indicating its high performance in ammonia synthesis.</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="100%" target="CU/NC">
+      <data key="d4">1.0</data>
+      <data key="d5">100% is the maximum Faradaic efficiency achieved by Cu/NC for NH3 synthesis.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="100%" target="CU2O">
+      <data key="d4">1.0</data>
+      <data key="d5">100% Faradaic efficiency is achieved by the Cu/Cu2O electrocatalyst modified with zeolite during ammonia synthesis.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="100%" target="CU(X)-OMS-1">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of 100% is achieved by the Cu-dispersed OMS-1 during the nitrate reduction to ammonia.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="3D CORE-SHELL STRUCTURED CO-CARBON NANOFIBERS (CNF)/ZIF-COP" target="NO3RR">
+      <data key="d4">1.0</data>
+      <data key="d5">3D core-shell structured Co-carbon nanofibers (CNF)/ZIF-CoP is an electrocatalyst fabricated for the nitrate reduction to ammonia (NO3RR) application.</data>
+      <data key="d6">82eae126e79e74d3a7b3e223e50527b6</data>
+    </edge>
+    <edge source="NO3RR" target="AMMONIA (NH3)">
+      <data key="d4">1.0</data>
+      <data key="d5">The electrocatalytic nitrate reduction reaction (NO3RR) is aimed at producing ammonia (NH3), establishing a direct relationship between the two.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="CO-CARBON NANOFIBERS (CNF)" target="CO">
+      <data key="d4">1.0</data>
+      <data key="d5">Co is a chemical element used in the fabrication of Co-carbon nanofibers (CNF) for nitrate reduction reactions.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="CO-CARBON NANOFIBERS (CNF)" target="ZIF-COP">
+      <data key="d4">1.0</data>
+      <data key="d5">ZIF-CoP is combined with Co-carbon nanofibers to enhance the performance of nitrate reduction reactions.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="ZIF-COP" target="AMORPHOUS COP">
+      <data key="d4">1.0</data>
+      <data key="d5">Amorphous CoP provides desirable mass transfer ability in the electrocatalytic process involving ZIF-CoP.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="ZIF-COP" target="96.8 +/- 3.4%">
+      <data key="d4">1.0</data>
+      <data key="d5">96.8 +/- 3.4% is the Faradaic efficiency achieved by ZIF-CoP at -0.1 V vs RHE during nitrate reduction reactions.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="ZIF-COP" target="38.44 +/- 0.65 MG CM-2 H-1">
+      <data key="d4">1.0</data>
+      <data key="d5">38.44 +/- 0.65 mg cm-2 h-1 is the NH3 yield rate achieved by ZIF-CoP at -0.6 V vs RHE during nitrate reduction reactions.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="ZIF-COP" target="-0.1 V VS RHE">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.1 V vs RHE is the applied potential at which the Faradaic efficiency of 96.8 +/- 3.4% is measured for ZIF-CoP.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="ZIF-COP" target="-0.6 V VS RHE">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.6 V vs RHE is the applied potential at which the NH3 yield rate of 38.44 +/- 0.65 mg cm-2 h-1 is measured for ZIF-CoP.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="CO" target="FECO-MOS2">
+      <data key="d4">1.0</data>
+      <data key="d5">Co is one of the elements in the co-doped MoS2 that enhances the nitrogen reduction reaction performance.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="AMORPHOUS COP" target="CRYSTAL COP">
+      <data key="d4">1.0</data>
+      <data key="d5">Crystal CoP is compared with amorphous CoP in terms of electrocatalytic performance for nitrate reduction reactions.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="AUCU NWS" target="31.57 MU G H-1 MG-1CAT">
+      <data key="d4">1.0</data>
+      <data key="d5">31.57 mu g h-1 mg-1cat is the NH3 yield achieved by AuCu NWs at a low potential of -0.2 V under neutral conditions.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="AUCU NWS" target="22.1%">
+      <data key="d4">1.0</data>
+      <data key="d5">22.1% is the Faradaic efficiency achieved by AuCu NWs during the electrochemical ammonia synthesis.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="CU/NC" target="32,300 MU G H(-1) MG(CAT.)(-1)">
+      <data key="d4">1.0</data>
+      <data key="d5">32,300 mu g h(-1) mg(cat.)(-1) is the high NH3 yield rate achieved by Cu/NC for ammonia production.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="MO" target="FEMON6-AXA">
+      <data key="d4">1.0</data>
+      <data key="d5">Mo is a chemical element that is part of the heteronuclear dual-atom catalysts (DACs) designed for nitrogen fixation, specifically FeMoN6-aXa.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="G-C3N4" target="FEMON6-AXA">
+      <data key="d4">1.0</data>
+      <data key="d5">g-C3N4 is a substrate used to anchor the heteronuclear dual-atom catalysts (DACs) for nitrogen fixation, specifically FeMoN6-aXa.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="FEMON6-AXA" target="12 DIFFERENT FEMON6-AXA DACS">
+      <data key="d4">1.0</data>
+      <data key="d5">A series of 12 different FeMoN6-aXa DACs have been systematically studied for their nitrogen reduction reaction performance.</data>
+      <data key="d6">d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="FEMON6-AXA" target="FEMON5O1">
+      <data key="d4">2.0</data>
+      <data key="d5">FeMoN5O1 is one of the DACs that displayed promising nitrogen reduction reaction performance among the series of FeMoN6-aXa DACs.
+FeMoN5O1 is one of the DACs within the FeMoN6-aXa family that exhibits promising NRR performance.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="FEMON6-AXA" target="LACU0.1FE0.9O3-DELTA">
+      <data key="d4">1.0</data>
+      <data key="d5">LaCu0.1Fe0.9O3-delta is another electrocatalyst developed for nitrogen reduction reactions, contributing to the family of DACs studied for NRR performance.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302</data>
+    </edge>
+    <edge source="FEMON5O1" target="-0.11 V">
+      <data key="d4">2.0</data>
+      <data key="d5">-0.11 V is the ultralow limiting potential associated with the performance of FeMoN5O1 in nitrogen reduction reactions.
+The ultralow limiting potential of -0.11 V is associated with the high selectivity and performance of FeMoN5O1 in nitrogen reduction reactions.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302,d044f043745b616cdb4686943e868600</data>
+    </edge>
+    <edge source="RU-TTA-DFP" target="2.03 MG H-1 MGCAT-1">
+      <data key="d4">1.0</data>
+      <data key="d5">The ammonia production yield rate of 2.03 mg h-1 mgcat-1 is achieved using the Ru-Tta-Dfp catalyst.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302</data>
+    </edge>
+    <edge source="RU-TTA-DFP" target="52.9%">
+      <data key="d4">1.0</data>
+      <data key="d5">The faradaic efficiency of 52.9% is a measure of the effectiveness of the Ru-Tta-Dfp catalyst in nitrogen reduction reactions.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302</data>
+    </edge>
+    <edge source="RU-TTA-DFP" target="1.7 V">
+      <data key="d4">1.0</data>
+      <data key="d5">The applied potential of 1.7 V is the threshold at which the NRR-OER coupled full cell begins ammonia production using the Ru-Tta-Dfp catalyst.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302</data>
+    </edge>
+    <edge source="RU-TTA-DFP" target="1.08 MG H-1 MGCAT-1">
+      <data key="d4">1.0</data>
+      <data key="d5">The ammonia production rate of 1.08 mg h-1 mgcat-1 is achieved at the cathode of the NRR-OER coupled full cell utilizing the Ru-Tta-Dfp catalyst.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302</data>
+    </edge>
+    <edge source="RU-TTA-DFP" target="300 MV">
+      <data key="d4">1.0</data>
+      <data key="d5">The OER overpotential of 300 mV is relevant to the performance of the Ru-Tta-Dfp catalyst during half-cell investigations.</data>
+      <data key="d6">6861c4979a52c8680a63819039da4302</data>
+    </edge>
+    <edge source="HYDROGEN EVOLUTION REACTION (HER)" target="ENRR">
+      <data key="d4">1.0</data>
+      <data key="d5">The hydrogen evolution reaction (HER) competes with the nitrogen reduction reaction (NRR), affecting the overall efficiency of the process.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="LMNRR" target="54.78 +/- 1.60 %">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of 54.78 +/- 1.60 % is achieved in the lithium-mediated nitrogen reduction reaction (LMNRR).</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="LMNRR" target="HABER-BOSCH PROCESS">
+      <data key="d4">1.0</data>
+      <data key="d5">The lithium-mediated nitrogen reduction reaction (LMNRR) is proposed as a sustainable alternative to the Haber-Bosch process for ammonia production.</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="LMNRR" target="RING-CHAIN COUPLING LAW">
+      <data key="d4">1.0</data>
+      <data key="d5">The ring-chain coupling law is applied to the lithium-mediated nitrogen reduction reaction (LMNRR) to optimize the reaction interface.</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="24,526 MU G H(-1) MG(CAT.)(-1)" target="FECU DAC">
+      <data key="d4">1.0</data>
+      <data key="d5">The NH3 yield of 24,526 mu g h(-1) mg(cat.)(-1) is achieved by the FeCu DAC in the NO2RR.</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="99.88 %" target="FECU DAC">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of 99.88 % for NH3 production is achieved by the FeCu DAC in the NO2RR.</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="FECU DAC" target="NO2RR">
+      <data key="d4">1.0</data>
+      <data key="d5">FeCu DAC is a dual-atom catalyst that demonstrates exceptional performance in the nitrite reduction reaction (NO2RR) for NH3 production.</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="FECU DAC" target="FECO">
+      <data key="d4">1.0</data>
+      <data key="d5">FeCo and FeCu DAC are both catalysts that enhance nitrogen reduction reactions, contributing to improved ammonia production.</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="32.16%" target="70.11 MU G H-1 MG-1">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of 32.16% is associated with the ammonia yield rate of 70.11 mu g h-1 mg-1 achieved by the asymmetrical heterobimetallic catalyst.</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="N2" target="FECO">
+      <data key="d4">1.0</data>
+      <data key="d5">FeCo is involved in the nitrogen reduction reaction (NRR) by facilitating the activation of N2 for ammonia production.</data>
+      <data key="d6">dd2c218d3654db0045b7149ccc6ca802</data>
+    </edge>
+    <edge source="N2" target="ENRR">
+      <data key="d4">1.0</data>
+      <data key="d5">N2 is the reactant gas in the electrochemical nitrogen reduction reaction (eNRR), essential for ammonia production.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="HABER-BOSCH PROCESS" target="H2">
+      <data key="d4">1.0</data>
+      <data key="d5">H2 is combined with the Haber-Bosch process for ammonia production, indicating a relationship between renewable hydrogen and traditional synthesis methods.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="HABER-BOSCH PROCESS" target="LINR">
+      <data key="d4">1.0</data>
+      <data key="d5">LiNR is considered a promising alternative to the Haber-Bosch process for ammonia synthesis, indicating a comparative relationship.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="HABER-BOSCH PROCESS" target="AMMONIA (NH3)">
+      <data key="d4">1.0</data>
+      <data key="d5">Ammonia (NH3) is produced through the Haber-Bosch process, indicating its significance in traditional ammonia synthesis methods.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="ZN" target="ZN-N2S2-MOF">
+      <data key="d4">1.0</data>
+      <data key="d5">Zn is a key component in the synthesis of Zn-N2S2-MOF, which exhibits high performance in nitrogen reduction reactions.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="ZN-N2S2-MOF" target="NH3 YIELD RATE OF 25.07 +/- 1.57 MU G H-1 CM-2">
+      <data key="d4">1.0</data>
+      <data key="d5">The NH3 yield rate of 25.07 +/- 1.57 mu g h-1 cm-2 is a performance metric for Zn-N2S2-MOF in nitrogen reduction reactions.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="ZN-N2S2-MOF" target="FARADAIC EFFICIENCY OF 44.57 +/- 2.79%">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of 44.57 +/- 2.79% is a performance metric for Zn-N2S2-MOF in nitrogen reduction reactions.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="ZN-N2S2-MOF" target="SYMMETRY-BREAKING ZINC METAL-ORGANIC FRAMEWORK (ZN-MOF)">
+      <data key="d4">1.0</data>
+      <data key="d5">Symmetry-breaking Zn-MOF catalysts are synthesized to enhance nitrogen reduction reaction performance, similar to Zn-N2S2-MOF.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="FE2O3" target="-0.15 V VS RHE">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.15 V vs RHE is the applied potential for the Cu-doped Fe2O3 nanorod arrays in nitrogen reduction reactions.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="MOS2" target="FECO-MOS2">
+      <data key="d4">1.0</data>
+      <data key="d5">FeCo-MoS2 is a modified version of MoS2 that enhances its electrocatalytic activity for nitrogen reduction reactions.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="MOS2" target="NISX/MOS2">
+      <data key="d4">1.0</data>
+      <data key="d5">NiSx/MoS2 is a composite that enhances the electrocatalytic activity of MoS2 for nitrogen reduction reactions.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="MOS2" target="1.13 EV">
+      <data key="d4">1.0</data>
+      <data key="d5">1.13 eV is the energy barrier for the potential-determining step of undoped MoS2 in nitrogen reduction reactions.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="FARADAIC EFFICIENCY OF 6.28%" target="FECO-MOS2">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of 6.28% is a performance metric for the FeCo-MoS2 nanosheets in nitrogen reduction reactions.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="FECO-MOS2" target="-0.55 V">
+      <data key="d4">2.0</data>
+      <data key="d5">-0.55 V is the applied potential at which the FeCo-MoS2 nanosheets provide a NH3 yield rate of 3.27 mg/h/cm2.
+-0.55 V is the applied potential at which the electrocatalytic activity of MoS2 is measured, relevant to the performance of FeCo-MoS2.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2,534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="FECO-MOS2" target="3.27 MG/H/CM2">
+      <data key="d4">1.0</data>
+      <data key="d5">3.27 mg/h/cm2 is the NH3 yield rate for FeCo-MoS2 nanosheets at -0.55 V.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="FECO-MOS2" target="-0.35 V">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.35 V is the applied potential at which the Faradaic efficiency of 6.28% is measured for the FeCo-MoS2 electrocatalyst.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="FECO-MOS2" target="0.54 EV">
+      <data key="d4">1.0</data>
+      <data key="d5">0.54 eV is the energy barrier for the potential-determining step of the FeCo-MoS2 electrocatalyst in nitrogen reduction reactions.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="12.5 MU G H(-1) MG(CAT.)(-1)" target="CU-DOPED FE2O3">
+      <data key="d4">1.0</data>
+      <data key="d5">12.5 mu g h(-1) mg(cat.)(-1) is the NH3 formation rate for Cu-doped Fe2O3 at -0.15 V vs RHE.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="16.4%" target="CU-DOPED FE2O3">
+      <data key="d4">1.0</data>
+      <data key="d5">16.4% is the Faradaic efficiency for Cu-doped Fe2O3 at -0.15 V vs RHE.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="HYDROTHERMAL TREATMENT" target="CU-DOPED FE2O3">
+      <data key="d4">1.0</data>
+      <data key="d5">Hydrothermal treatment is part of the synthesis method for Cu-doped Fe2O3 nanorod arrays.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="ANNEALING UNDER A N2 ATMOSPHERE" target="CU-DOPED FE2O3">
+      <data key="d4">1.0</data>
+      <data key="d5">Annealing under a N2 atmosphere is part of the synthesis method for Cu-doped Fe2O3 nanorod arrays.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="ASYMMETRICAL HETEROBIMETALLIC SITES" target="FECO DIMER SITES">
+      <data key="d4">1.0</data>
+      <data key="d5">Asymmetrical heterobimetallic sites, such as FeCo dimer sites, are crucial for efficient multi-intermediate electrocatalytic reactions.</data>
+      <data key="d6">435a5c1f43d5cbadb0374b7e749d47a2</data>
+    </edge>
+    <edge source="CU2O" target="ZEOLITE">
+      <data key="d4">1.0</data>
+      <data key="d5">Zeolite modification of the Cu/Cu2O electrocatalyst enhances its performance in ammonia synthesis.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="CU2O" target="41.65 MG H-1 CM-2">
+      <data key="d4">1.0</data>
+      <data key="d5">41.65 mg h-1 cm-2 is the NH3 production rate achieved by the Cu/Cu2O electrocatalyst modified with zeolite.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="-0.60 V" target="NISX/MOS2">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.60 V is the applied potential at which the NH3 yield rate of 68.78 &#181;g h-1 mg-cat-1 is achieved by NiSx/MoS2 composites.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="-0.50 V" target="NISX/MOS2">
+      <data key="d4">1.0</data>
+      <data key="d5">-0.50 V is the applied potential at which the Faradaic efficiency of 48.53% is measured for NiSx/MoS2 composites.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="NISX/MOS2" target="68.78 &#924;G H-1 MG-CAT-1">
+      <data key="d4">1.0</data>
+      <data key="d5">68.78 &#181;g h-1 mg-cat-1 is the NH3 yield rate achieved by NiSx/MoS2 composites at -0.60 V (vs. RHE).</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="NISX/MOS2" target="48.53 %">
+      <data key="d4">1.0</data>
+      <data key="d5">48.53 % is the Faradaic efficiency measured for NiSx/MoS2 composites at -0.50 V (vs. RHE).</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="TIO2" target="PDCU">
+      <data key="d4">1.0</data>
+      <data key="d5">TiO2 is a support for the PdCu alloy nanoparticles, enhancing the reactivity and selectivity for nitrogen reduction.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="PDCU" target="5.0 MMOL GCAT-1 H-1">
+      <data key="d4">1.0</data>
+      <data key="d5">5.0 mmol gcat-1 h-1 is the NH3 evolution rate achieved by the PdCu/TiO2-x catalyst.</data>
+      <data key="d6">534ba1e4c38684a8afd1ac8b8110b5de</data>
+    </edge>
+    <edge source="TM" target="BC3N2">
+      <data key="d4">1.0</data>
+      <data key="d5">TM atoms enhance the catalytic activity of the BC3N2 electrocatalyst in the nitrogen reduction reaction (NRR).</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="V-N" target="ENRR">
+      <data key="d4">1.0</data>
+      <data key="d5">The presence of V-N affects the interaction between nitrogen and the TM@BC3N2 systems, influencing the efficiency of the electrochemical nitrogen reduction reaction (eNRR).</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="ENRR" target="CR@B2C3N">
+      <data key="d4">1.0</data>
+      <data key="d5">Cr@B2C3N is a single-atom catalyst that exhibits strong stability and high activity for the nitrogen reduction reaction (NRR).</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="ENRR" target="MN@B2C3N">
+      <data key="d4">1.0</data>
+      <data key="d5">Mn@B2C3N is a single-atom catalyst that exhibits strong stability and high activity for the nitrogen reduction reaction (NRR).</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="ENRR" target="NH3">
+      <data key="d4">1.0</data>
+      <data key="d5">NH3 is the product of the electrochemical nitrogen reduction reaction (eNRR), indicating the success of the reaction.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="ENRR" target="BUBBLE-BASED MICROREACTOR (BBMR)">
+      <data key="d4">1.0</data>
+      <data key="d5">The bubble-based microreactor (BBMR) is designed to enhance mass transfer during the electrochemical nitrogen reduction reaction (eNRR).</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="ENRR" target="MASS TRANSFER">
+      <data key="d4">1.0</data>
+      <data key="d5">Mass transfer is a significant factor affecting the performance of electrocatalysts during the electrochemical nitrogen reduction reaction (eNRR).</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="ENRR" target="AMBIENT TEMPERATURE AND PRESSURE">
+      <data key="d4">1.0</data>
+      <data key="d5">The electrochemical nitrogen reduction reaction (eNRR) is conducted at ambient temperature and pressure conditions.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="MO-BN@IN2SE3" target="NRR">
+      <data key="d4">1.0</data>
+      <data key="d5">Mo-BN@In2Se3 acts as an electrocatalyst for the nitrogen reduction reaction (NRR), demonstrating semiconducting or metallic features based on polarization direction.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="WSE2@IN2SE3" target="NRR">
+      <data key="d4">1.0</data>
+      <data key="d5">WSe2@In2Se3 serves as an electrocatalyst for the nitrogen reduction reaction (NRR), demonstrating semiconducting or metallic features based on polarization direction.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="NIMNOX@CC" target="16 MU G(-1) H(-1) MG(-1)">
+      <data key="d4">1.0</data>
+      <data key="d5">The ammonia yield of 16 mu g(-1) h(-1) mg(-1) indicates the efficiency of the NiMnOx-3@CC electrocatalyst in nitrogen reduction.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="NIMNOX@CC" target="19%">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of 19% for NiMnOx-3@CC indicates its effectiveness in the nitrogen reduction reaction.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="NIMNOX@CC" target="-0.1 V VS. RHE">
+      <data key="d4">1.0</data>
+      <data key="d5">The applied potential of -0.1 V vs. RHE is relevant to the performance of NiMnOx-3@CC in the nitrogen reduction reaction.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="NIMNOX@CC" target="BIMETALLIC OXIDES">
+      <data key="d4">1.0</data>
+      <data key="d5">Bimetallic oxides, such as NiMnOx@CC, exhibit strong electrocatalytic activity due to the synergistic effects between nickel and manganese.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="NIMNOX@CC" target="3D FLOWER-LIKE STRUCTURE">
+      <data key="d4">1.0</data>
+      <data key="d5">The 3D flower-like structure of NiMnOx@CC enhances its catalytic properties by providing more active sites for the nitrogen reduction reaction.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="NH3" target="NAFION N112">
+      <data key="d4">1.0</data>
+      <data key="d5">Nafion N112 is found ineffective at preventing NH3 or NH4+ crossover in the flow cell.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="3D FLOWER-LIKE STRUCTURE" target="NANOSHEETS">
+      <data key="d4">1.0</data>
+      <data key="d5">Nanosheets are the building blocks of the 3D flower-like structure in nickel-manganese bimetallic oxides, contributing to their morphology and catalytic efficiency.</data>
+      <data key="d6">a84b8096f27998631e6ca69852756640</data>
+    </edge>
+    <edge source="NBN" target="5.46 X 10-10 MOL S-1 CM-2">
+      <data key="d4">1.0</data>
+      <data key="d5">The maximum NH3 production rate of 5.46 x 10-10 mol s-1 cm-2 is achieved using the NbN electrocatalyst at -0.6 V vs. RHE.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="NBN" target="16.33%">
+      <data key="d4">1.0</data>
+      <data key="d5">The Faradaic efficiency of 16.33% is measured for the NbN electrocatalyst at -0.3 V vs. RHE.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="NBN" target="TRANSITION METAL NITRIDE (TMN)">
+      <data key="d4">1.0</data>
+      <data key="d5">NbN is a type of transition metal nitride (TMN) used as an electrocatalyst for nitrogen reduction reactions (NRR).</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="NBN" target="ICP-OES">
+      <data key="d4">1.0</data>
+      <data key="d5">ICP-OES is used to confirm the leaching of NbN in the study, indicating its behavior during the electrochemical reaction.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="CU(X)-OMS-1" target="148 MA CM(-2)">
+      <data key="d4">1.0</data>
+      <data key="d5">The maximum NH3 partial current density of 148 mA cm(-2) is reached using the Cu-dispersed OMS-1 catalyst during NITRR.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="CU(X)-OMS-1" target="0.69 MMOL H(-1) CM(-2)">
+      <data key="d4">1.0</data>
+      <data key="d5">The high production rate of 0.69 mmol h(-1) cm(-2) is achieved with the Cu-dispersed OMS-1 catalyst during NITRR.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="NAFION N112" target="NA2SO4">
+      <data key="d4">1.0</data>
+      <data key="d5">The interactions between Nafion N112 and NH4+ depend on the supporting electrolyte type, such as Na2SO4.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="NAFION N112" target="1 PPM">
+      <data key="d4">1.0</data>
+      <data key="d5">The crossover of NH3 or NH4+ ions was evaluated at a concentration level of 1 ppm in the flow cell using Nafion N112.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="15N2" target="14NH4+">
+      <data key="d4">1.0</data>
+      <data key="d5">The detection of 14NH4+ peaks in NMR experiments suggests that the produced ammonia originates from the leaching of NbN, traced using 15N2.</data>
+      <data key="d6">f25b2f8e084ecf348045f240f1473e4a</data>
+    </edge>
+    <edge source="NH4+" target="NA+">
+      <data key="d4">1.0</data>
+      <data key="d5">The cation exchange between membrane-adsorbed NH4+ and Na+ from the electrolyte is proposed as a membrane-cleaning procedure.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="(V,NI,MN)(3)O4-X/NB2O5-Y" target="3.19 MG H(-1) CM(-2)">
+      <data key="d4">1.0</data>
+      <data key="d5">3.19 mg h(-1) cm(-2) is the NH3 yield achieved from the electrocatalyst (V,Ni,Mn)(3)O4-x/Nb2O5-y.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="(V,NI,MN)(3)O4-X/NB2O5-Y" target="22.7%">
+      <data key="d4">1.0</data>
+      <data key="d5">22.7% is the faradaic efficiency of the electrocatalyst (V,Ni,Mn)(3)O4-x/Nb2O5-y, indicating its effectiveness in ammonia production.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="(V,NI,MN)(3)O4-X/NB2O5-Y" target="37.66%">
+      <data key="d4">1.0</data>
+      <data key="d5">37.66% is the cell energy efficiency evaluated for the electrocatalyst performance in energy conversion.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="RUOX-CO3O4" target="65.8 MA CM(-2)">
+      <data key="d4">1.0</data>
+      <data key="d5">65.8 mA cm(-2) is the partial current density delivered by RuOx-Co3O4 for NH3 production.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="RUOX-CO3O4" target="89.7%">
+      <data key="d4">1.0</data>
+      <data key="d5">89.7% is the faradaic efficiency achieved by RuOx-Co3O4 for ammonia synthesis.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="RUOX-CO3O4" target="210.5 MU MOL H(-1) CM(-2)">
+      <data key="d4">1.0</data>
+      <data key="d5">210.5 mu mol h(-1) cm(-2) is the superior ammonia yield rate achieved by RuOx-Co3O4 at -0.6 V vs. RHE.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="DIMETHOXYETHANE" target="LINR">
+      <data key="d4">1.0</data>
+      <data key="d5">Dimethoxyethane is an ether-based solvent that shows the lowest potential loss among the investigated systems for LiNR, indicating its relevance in the process.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="TETRAHYDROFURAN" target="LINR">
+      <data key="d4">1.0</data>
+      <data key="d5">Tetrahydrofuran achieves an outstanding faradaic efficiency of 58.5 +/- 6.1% at ambient pressure for LiNR, indicating its effectiveness in the process.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="LINR" target="SOLID ELECTROLYTE INTERPHASE">
+      <data key="d4">1.0</data>
+      <data key="d5">The solid electrolyte interphase formed during the LiNR process impacts the characteristics of the solvent systems, indicating its importance in the process.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="ONE-POT HYDROTHERMAL METHOD" target="ELECTROCATALYST (V,NI,MN)(3)O4-X/NB2O5-Y">
+      <data key="d4">1.0</data>
+      <data key="d5">The one-pot hydrothermal method is the synthesis method used to create the electrocatalyst (V,Ni,Mn)(3)O4-x/Nb2O5-y, linking the method to the electrocatalyst.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+    <edge source="NONSTOICHIOMETRIC NI-V-MN-NB OXIDE SYSTEM" target="AMMONIA (NH3)">
+      <data key="d4">1.0</data>
+      <data key="d5">The nonstoichiometric Ni-V-Mn-Nb oxide system is proposed to elucidate the exceptional activity in ammonia production, indicating its relevance to NH3 synthesis.</data>
+      <data key="d6">a8606309ea3bf3c8b10f3c85acbd1371</data>
+    </edge>
+  </graph>
+</graphml>
