@@ -1,6 +1,6 @@
 # eNRRCrew: Accelerating eNRR catalyst Design through Multi-Agent Collaboration and Automated Structure-Activity Analysis
 
-![Graphical Abstract](https://github.com/nkuhuxu/eNRRCrew/tree/main/images/TOC.png?raw=true)
+![Graphical Abstract](https://github.com/nkuhuxu/eNRRCrew/blob/main/images/TOC.png)
 
 The electrocatalytic nitrogen reduction reaction (eNRR) represents a promising approach for sustainable ammonia production. However, understanding structure-activity relationships remains challenging due to the vast literature and complex data analysis required. Here, we present eNRRCrew, a novel multi-agent collaborative framework that integrates large language models (LLMs), machine learning techniques, and automated data analysis tools to advance eNRR research. The eNRRCrew comprises five agents, an orchestrator, a yield predictor, a Faradaic efficiency predictor, a GraphRAG retriever, and a CSV file handler. Users interact with eNRRCrew through the user interface provided by the Streamlit library to perform retrieval and prediction of structure-activity relationships in eNRR. 
 
@@ -8,7 +8,7 @@ The electrocatalytic nitrogen reduction reaction (eNRR) represents a promising a
  - **GraphRAG retriever:** - Enhanceing responses by retrieving information from curated databases containing eNRR abstracts.
  - **CSV file handler:** - Writes and executes code to interact with CSV files obtained from text-mining workflow in response to user queries.
 
-![Main Interfacce](https://github.com/nkuhuxu/eNRRCrew/tree/main/images/Main_Interfacce.png?raw=true)
+![Main Interfacce](https://github.com/nkuhuxu/eNRRCrew/blob/main/images/Main_Interfacce.png)
 
 ## Online Demo
 
