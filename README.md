@@ -12,11 +12,12 @@ The electrocatalytic nitrogen reduction reaction (eNRR) represents a promising a
 
 ## Online Demo
 
-Try eNRRCrew on [Online demo](https://enrrcrew-evawapppbcybazmpt2zwo2.streamlit.app/). Users can interact with eNRRCrew through an intuitive user interface provided by the Streamlit library, enabling them to efficiently retrieve and predict structure-activity relationships in eNRR.
+Try eNRRCrew on [Online demo](https://enrrcrew-evawapppbcybazmpt2zwo2.streamlit.app/). Users can interact with eNRRCrew through an intuitive user interface provided by the Streamlit library, enabling them to efficiently retrieve and predict structure-activity relationships in eNRR. 
 
 
 ## Useful Links 🔗
 
+- eNRRCrew [demo](https://youtu.be/KP-TBl0QJcY)
 - Microsoft's GraphRAG [GraphRAG](https://github.com/microsoft/graphrag)
 - Microsoft's AutoGen [AutoGen](https://github.com/microsoft/autogen)
 - Steamlit [Streamlit](https://streamlit.io/)
