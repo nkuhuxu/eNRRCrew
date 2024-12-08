@@ -8,7 +8,7 @@ llm:
   model_supports_json: true # recommended if this is available for your model.
   # max_tokens: 40000
   # request_timeout: 180.0
-  api_base: https://api.chatanywhere.tech/v1
+  api_base: ${GRAPHRAG_BASE_URL}
   # api_version: 2024-02-15-preview
   # organization: <organization_id>
   # deployment_name: <azure_model_deployment_name>
@@ -35,7 +35,7 @@ embeddings:
     api_key: ${GRAPHRAG_API_KEY}
     type: openai_embedding # or azure_openai_embedding
     model: text-embedding-3-small
-    api_base: https://api.chatanywhere.tech/v1
+    api_base: ${GRAPHRAG_BASE_URL}
     # api_version: 2024-02-15-preview
     # organization: <organization_id>
     # deployment_name: <azure_model_deployment_name>
