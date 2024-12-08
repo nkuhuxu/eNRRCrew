@@ -17,7 +17,7 @@ Try eNRRCrew on [Online demo](https://enrrcrew-evawapppbcybazmpt2zwo2.streamlit.
 
 ## Useful Links 🔗
 
-- eNRRCrew [demo](https://youtu.be/KP-TBl0QJcY)
+- eNRRCrew [demo vedio](https://youtu.be/KP-TBl0QJcY)
 - Microsoft's GraphRAG [GraphRAG](https://github.com/microsoft/graphrag)
 - Microsoft's AutoGen [AutoGen](https://github.com/microsoft/autogen)
 - Steamlit [Streamlit](https://streamlit.io/)
