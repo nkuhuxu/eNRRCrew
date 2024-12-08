@@ -1,1 +1,4 @@
 * text=auto
+*.json text
+*.log text
+*.graphml text
