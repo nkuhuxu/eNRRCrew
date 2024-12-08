@@ -71,7 +71,7 @@ future==1.0.0
 gensim
 google-auth==2.35.0
 googleapis-common-protos==1.65.0
-graphrag
+graphrag==0.3.0
 graspologic
 graspologic-native
 grpcio==1.67.1
