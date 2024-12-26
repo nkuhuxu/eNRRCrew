@@ -395,7 +395,7 @@ with col1:
 
 with col2:
     if st.button("Watch Video Tutorial"):
-        st.video("https://youtu.be/KP-TBl0QJcY")
+        st.video("https://youtu.be/8wGIyxSJBFY")
 
 # 显示内容(如果需要)
 if st.session_state.get('show_content', False):
