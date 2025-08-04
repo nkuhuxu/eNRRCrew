@@ -56,7 +56,7 @@ The application requires API keys for OpenAI services. You will need to configur
     llm_config_autogen = {
         "seed": 42,
         "temperature": 0,
-        "config_list": [{"model": "gpt-4.1-mini",
+        "config_list": [{"model": "gpt-4o-mini",
                         "base_url": "your_api_base_url_here",
                         'api_key': 'your_api_key_here'}],
         "timeout": 60,
@@ -65,7 +65,7 @@ The application requires API keys for OpenAI services. You will need to configur
     llm_manager = {
         "seed": 42,
         "temperature": 0,
-        "config_list": [{"model": "gpt-4.1",
+        "config_list": [{"model": "gpt-4o",
                         "base_url": "your_api_base_url_here",
                         'api_key': 'your_api_key_here'}],
         "timeout": 60,
