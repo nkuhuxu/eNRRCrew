@@ -8,7 +8,7 @@ This framework is composed of five specialized agents that work in concert: an o
  - **GraphRAG retriever:** Enhances responses by retrieving relevant information from a curated knowledge base of eNRR abstracts and providing novel electrocatalyst recommendations.
  - **CSV file handler:** Executes code to interact with CSV files, enabling seamless data manipulation and analysis in response to user queries.
 
-The complete dataset of structure-activity relationships, extracted from 2,321 analyzed papers, can be found in `data_include_morphology_electrocatalyst.csv`.
+The complete dataset of structure-activity relationships, extracted from 2,321 analyzed papers, can be found in `input/data_include_morphology_electrocatalyst.csv`.
 
 
 ## 🚀 Online Demo
