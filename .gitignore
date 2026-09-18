@@ -1,0 +1,36 @@
+# Secrets
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Python and tooling
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.ruff_cache/
+**/.ruff_cache/
+.coverage
+htmlcov/
+
+# Application runtime
+uv/runtime/*
+!uv/runtime/sessions/
+uv/runtime/sessions/*
+!uv/runtime/sessions/.gitkeep
+input/tmp_code_*.py
+
+# Local GraphRAG working cache and reports
+cache/
+output/*/reports/
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,46 +1,121 @@
-# eNRRCrew: Accelerating eNRR catalyst Design through Multi-Agent Collaboration and Automated Structure-Activity Analysis
+# eNRRCrew
 
-![Graphical Abstract](https://github.com/nkuhuxu/eNRRCrew/blob/main/images/TOC.png)
+eNRRCrew is a reproducible decision-support application for electrocatalytic nitrogen
+reduction research. It combines local GraphRAG retrieval, persisted machine-learning models,
+session-isolated Streamlit workflows, Docker-sandboxed CSV analysis, and constrained catalyst
+recommendation.
 
-The electrocatalytic nitrogen reduction reaction (eNRR) represents a promising approach for sustainable ammonia production. However, understanding structure-activity relationships remains challenging due to the vast literature and complex data analysis required. Here, we present eNRRCrew, a novel multi-agent collaborative framework that integrates large language models (LLMs), machine learning techniques, and automated data analysis tools to advance eNRR research. The eNRRCrew comprises five agents, an orchestrator, a yield predictor, a Faradaic efficiency predictor, a GraphRAG retriever, and a CSV file handler. Users interact with eNRRCrew through the user interface provided by the Streamlit library to perform retrieval and prediction of structure-activity relationships in eNRR. 
+The maintained application is in [`uv/`](uv/). This repository contains only the current
+Streamlit implementation; the previous `appUI.py` and Chainlit application are intentionally
+excluded.
 
- - **eNRR Yield predictor and FE predictor:** - Using pre-trained machine learning models in the former section to predict eNRR yield and FE.
- - **GraphRAG retriever:** - Enhancing responses by retrieving information from curated databases containing eNRR abstracts.
- - **CSV file handler:** - Writes and executes code to interact with CSV files obtained from text-mining workflow in response to user queries.
+## Current capabilities
 
-![Main Interface](https://github.com/nkuhuxu/eNRRCrew/blob/main/images/Main_Interfacce.png)
+1. GraphRAG dialogue and literature retrieval
+2. NH3-yield classification
+3. Faradaic-efficiency classification
+4. Docker-isolated CSV analysis
+5. Catalyst recommendation using known systems and constrained generated hypotheses
 
-## Online Demo
+Recommendation results are experiment candidates for validation, not confirmed discoveries.
+Yield model scores are uncalibrated classifier scores, FE scores are centroid margins, and
+novelty is assessed only against the included local dataset and knowledge graph.
 
-Try eNRRCrew on [Online demo](https://enrrcrew.streamlit.app/). Users can interact with eNRRCrew through an intuitive user interface provided by the Streamlit library, enabling them to efficiently retrieve and predict structure-activity relationships in eNRR. 
+## Repository layout
 
+```text
+eNRRCrew/
+├─ input/                 Curated eNRR dataset
+├─ models/                Persisted FE and yield model assets
+├─ output/                GraphRAG index used by the local query service
+├─ prompts/               GraphRAG prompts
+├─ settings.yaml          GraphRAG configuration
+└─ uv/                    Maintained Python 3.12 application
+```
 
-## Useful Links 🔗
+## Install
 
-- eNRRCrew [demo video](https://youtu.be/KP-TBl0QJcY)
-- Microsoft's GraphRAG [GraphRAG](https://github.com/microsoft/graphrag)
-- Microsoft's AutoGen [AutoGen](https://github.com/microsoft/autogen)
-- Streamlit [Streamlit](https://streamlit.io/)
-- Microsoft's GraphRAG + AutoGen + Ollama + Chainlit = Fully Local & Free Multi-Agent RAG Superbot [Medium.com](https://medium.com/@karthik.codex/microsofts-graphrag-autogen-ollama-chainlit-fully-local-free-multi-agent-rag-superbot-61ad3759f06f) 📚
+Install a current [uv](https://docs.astral.sh/uv/) release and Docker Desktop, then run:
 
+```powershell
+git clone https://github.com/nkuhuxu/eNRRCrew.git
+cd eNRRCrew\uv
+uv python install 3.12.7
+uv sync --frozen
+uv run --frozen python -c "import sklearn, matminer; print(sklearn.__version__)"
+Copy-Item .env.example .env
+```
 
+The import preflight should print `1.5.1`. If an interrupted or incomplete Windows installation
+reports `cannot import name '__version__' from 'sklearn'`, repair only that locked package and run
+the preflight again:
 
-## 📦 Installation and Setup 
+```powershell
+python -m uv sync --frozen --refresh-package scikit-learn --reinstall-package scikit-learn
+python -m uv run --frozen python -c "import sklearn, matminer; print(sklearn.__version__)"
+```
 
-Follow these steps to set up and run eNRRCrew:
+API credentials are optional for prediction and recommendation. They are required only for LLM
+and GraphRAG operations. Configure them in `uv/.env` or enter a temporary value in the Streamlit
+sidebar:
 
-1. **Create conda environment and install python packages:**
-    ```bash
-   conda create -n eNRRCrew python=3.12.7
-   conda activate eNRRCrew
-   git clone https://github.com/nkuhuxu/eNRRCrew.git
-   cd eNRRCrew
-   pip install -r requirements.txt
-    ```    
+```dotenv
+GRAPHRAG_API_KEY=
+GRAPHRAG_BASE_URL=https://api.openai.com/v1
+```
 
-2. **Run eNRRCrew:**
-    ```bash
-    streamlit run appUI.py
-    ```                
+Never commit the populated `.env` file. Session credentials are not written by the application.
 
+## Build the CSV sandbox
 
+```powershell
+cd uv
+uv export --frozen --only-group sandbox --no-emit-project `
+  --output-file docker/csv-sandbox/requirements.lock.txt
+docker build -t enrrcrew-csv-sandbox:local .\docker\csv-sandbox
+```
+
+Generated analysis code runs only in this non-root, network-disabled container. The application
+does not fall back to host execution when Docker is unavailable.
+
+## Run
+
+```powershell
+cd uv
+uv run --frozen streamlit run src/enrrcrew/app.py
+```
+
+All user-generated files are written below `uv/runtime/sessions/<session-id>/`. Model, input,
+and GraphRAG assets are read from the repository root by default.
+
+## Verify
+
+```powershell
+cd uv
+uv sync --frozen
+uv run --frozen ruff check .
+uv run --frozen pytest --cov=enrrcrew
+```
+
+The test suite includes predictor preprocessing, session isolation, Docker sandbox boundaries,
+GraphRAG mocks, recommendation generation/ranking, persisted-model integration, and Streamlit
+interaction tests. Coverage is enforced at 90%; the test command fails if the total drops below
+that threshold.
+
+The repository is self-contained after cloning: application code, model assets, the curated
+dataset, GraphRAG prompts/configuration, and the current GraphRAG index are all included. Package
+installation still requires access to the dependency sources referenced by `uv.lock`, and CSV
+code execution requires Docker Desktop plus the sandbox image described above.
+
+## Security and data notes
+
+- `.env`, virtual environments, caches, runtime sessions, and generated code are ignored.
+- The included GraphRAG index is read-only at application runtime.
+- Recommendation novelty is local-only and must not be interpreted as a patent or global
+  literature novelty opinion.
+- Generated catalyst labels represent element-set and morphology hypotheses, not exact
+  stoichiometric formulas.
+
+## License
+
+This project is distributed under the [MIT License](LICENSE).

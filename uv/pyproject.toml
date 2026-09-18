@@ -1,0 +1,82 @@
+[project]
+name = "enrrcrew"
+version = "0.3.0"
+description = "Session-isolated Streamlit interface for eNRR retrieval and prediction"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "docker==7.1.0",
+    "graphrag==0.3.6",
+    # OpenAI 1.53 still passes the removed `proxies` argument to httpx 0.28.
+    "httpx==0.27.2",
+    "joblib==1.4.2",
+    "lancedb==0.14.0",
+    "matminer==0.9.3",
+    "matplotlib==3.9.2",
+    "numpy==1.26.4",
+    "openai==1.53.0",
+    "pandas==2.2.3",
+    "pyarrow==15.0.2",
+    "pyautogen==0.2.32",
+    "pydantic==2.9.2",
+    "pydantic-settings==2.6.1",
+    "python-dotenv==1.0.1",
+    # The persisted scaler and estimators report sklearn 1.5.1 when loaded.
+    "scikit-learn==1.5.1",
+    "scipy==1.14.1",
+    "seaborn==0.13.2",
+    "streamlit==1.40.2",
+]
+
+[dependency-groups]
+dev = [
+    "playwright>=1.49,<2",
+    "pytest>=8.3,<9",
+    "pytest-cov>=6,<7",
+    "ruff>=0.9,<1",
+]
+sandbox = [
+    "matplotlib==3.9.2",
+    "numpy==1.26.4",
+    "pandas==2.2.3",
+    "pyarrow==15.0.2",
+    "seaborn==0.13.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/enrrcrew"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers"
+testpaths = ["tests"]
+markers = [
+    "integration: requires local models, GraphRAG assets, or Docker",
+]
+
+[tool.coverage.run]
+concurrency = ["thread"]
+relative_files = true
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["runtime"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.uv]
+# GraphRAG 0.3.6 pins LanceDB below 0.14, but all 0.13 artifacts have been
+# removed from PyPI. 0.14 is the smallest available release and retains the
+# API surface used by the legacy query layer. The integration smoke test is
+# the release gate for this explicit compatibility override.
+override-dependencies = ["lancedb==0.14.0"]
