@@ -5,10 +5,6 @@ reduction research. It combines local GraphRAG retrieval, persisted machine-lear
 session-isolated Streamlit workflows, Docker-sandboxed CSV analysis, and constrained catalyst
 recommendation.
 
-The maintained application is in [`uv/`](uv/). This repository contains only the current
-Streamlit implementation; the previous `appUI.py` and Chainlit application are intentionally
-excluded.
-
 ## Publication
 
 The work associated with eNRRCrew was published as:
@@ -118,7 +114,6 @@ code execution requires Docker Desktop plus the sandbox image described above.
 
 ## Security and data notes
 
-- `.env`, virtual environments, caches, runtime sessions, and generated code are ignored.
 - The included GraphRAG index is read-only at application runtime.
 - Recommendation novelty is local-only and must not be interpreted as a patent or global
   literature novelty opinion.
