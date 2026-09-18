@@ -9,6 +9,15 @@ The maintained application is in [`uv/`](uv/). This repository contains only the
 Streamlit implementation; the previous `appUI.py` and Chainlit application are intentionally
 excluded.
 
+## Publication
+
+The work associated with eNRRCrew was published as:
+
+Xu Hu, Suya Chen, Letian Chen, Huijuan Wang, Xu Zhang, and Zhen Zhou,
+“Automating structure-activity analysis for electrochemical nitrogen reduction catalyst design
+through multi-agent collaborations,” *National Science Review*, **12**(11), nwaf372 (2025).
+[https://doi.org/10.1093/nsr/nwaf372](https://doi.org/10.1093/nsr/nwaf372)
+
 ## Current capabilities
 
 1. GraphRAG dialogue and literature retrieval
