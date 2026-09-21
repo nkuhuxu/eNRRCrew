@@ -1,0 +1,9 @@
+.venv
+.git
+runtime
+knowledge
+graphrag_service
+tests
+__pycache__
+*.pyc
+.env

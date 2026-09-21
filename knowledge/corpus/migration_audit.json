@@ -1,0 +1,15 @@
+{
+  "baseline_documents": 499,
+  "duplicates": [
+    {
+      "document_id": "doi:10.1021/acsaem.3c01382",
+      "kept_source_row": 152,
+      "reason": "duplicate DOI; retained the longer normalized abstract",
+      "skipped_source_row": 153
+    }
+  ],
+  "excluded_unique_documents": 1819,
+  "matched_rows": 500,
+  "merged_abstracts": 500,
+  "source_rows": 2321
+}
